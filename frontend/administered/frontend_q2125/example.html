@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+    <style>
+        :root {
+            --text-color: red;
+        }
+
+        article {
+            --text-color: yellow;
+        }
+
+        p.intro {
+            --text-color: green;
+        }
+
+        p.main {
+            color: var(--text-color);
+        }
+    </style>
+</head>
+
+<body>
+    <article>
+        <p class="intro">Lorem ipsum</p>
+        <p class="main">dolor sit amet</p>
+    </article>
+</body>
+
+</html>

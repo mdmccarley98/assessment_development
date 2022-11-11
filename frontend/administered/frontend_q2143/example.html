@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h3>Answer</h3>
+    <canvas id="answer" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+    <h3>D1</h3>
+    <canvas id="d1" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+    <h3>D2</h3>
+    <canvas id="d2" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+    <h3>D3</h3>
+    <canvas id="d3" width="200" height="100" style="border:1px solid #000000;"></canvas>
+
+    <script>
+        const answer = document.getElementById('answer').getContext("2d")
+        answer.moveTo(0, 100)
+        answer.lineTo(200, 0)
+        answer.stroke()
+
+        const d1 = document.getElementById('d1').getContext("2d")
+        d1.moveTo(0, 0)
+        d1.lineTo(200, 100)
+        d1.stroke()
+
+        const d2 = document.getElementById('d2').getContext("2d")
+        d2.moveTo(100, 0)
+        d2.lineTo(100, 100)
+        d2.stroke()
+
+        const d3 = document.getElementById('d3').getContext("2d")
+        d3.moveTo(0, 100)
+        d3.lineTo(100, 0)
+        d3.stroke()
+    </script>
+
+</body>
+
+</html>

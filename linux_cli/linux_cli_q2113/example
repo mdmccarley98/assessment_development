@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+import os
+
+def print_v():
+	val = os.getenv('VAL') or ""
+	print(f"VAL is \"{val}\"")
+
+if __name__ == '__main__':
+	print_v()

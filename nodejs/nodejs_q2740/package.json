@@ -1,0 +1,13 @@
+{
+  "name": "hello-node",
+  "version": "1.0.0",
+  "description": "Hello world!",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0"
+  }
+}

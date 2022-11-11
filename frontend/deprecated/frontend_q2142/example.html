@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+    <style>
+        /* Answer */
+        form>div:nth-child(2) input {
+            border-style: solid;
+            border-color: red;
+        }
+
+        /* D1 */
+        form>div:nth-child(1) input {
+            border-style: solid;
+            border-color: blue;
+        }
+
+        /* D2 */
+        form .email, form .phone {
+            border-style: solid;
+            border-color: green;
+        }
+
+        /* D2 */
+        form>#email, form>#phone {
+            border-style: solid;
+            border-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" />
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" />
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="text" />
+            <label for="phone">Phone</label>
+            <input id="phone" type="text" />
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input id="address" type="text" />
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+services:
+  nginx:
+    image: nginx:latest
+    depends_on:
+      - app
+    volumes:
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - 8080:80
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - APP_PORT=80

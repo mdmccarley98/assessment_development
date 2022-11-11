@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+    <script>
+        const socket = new WebSocket('wss://echo.websocket.org')
+
+        function messageHandler(event) {
+            console.log(event.data)
+        }
+
+        socket.onopen = () => {
+            socket.send('Echo!')
+        }
+
+        // Answer
+        socket.onmessage = messageHandler
+
+        // D1
+        // window.addEventListener('message', messageHandler)
+
+        // D2
+        // window.onmessage = messageHandler
+
+        // D3
+        // socket.onmessage(messageHandler)
+
+    </script>
+</body>
+
+</html>

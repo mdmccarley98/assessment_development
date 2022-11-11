@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+
+    <style>
+        /* Answer */
+        @media screen and (orientation: portrait), print {
+            div.answer::after {
+                content: "Applied Answer!";
+            }
+        }
+
+        /* D1 */
+        @media screen and (orientation: portrait) or print {
+            div.one::after {
+                content: "Applied D1";
+            }
+        }
+
+        /* D2 */
+        @media screen and (orientation: portrait),
+        @media print {
+            div.two::after {
+                content: "Applied D2";
+            }
+        }
+
+        /* D3 */
+        @media screen and (orientation: portrait) {
+            @media print {
+                div.three::after {
+                    content: "Applied D3";
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    Use dev tools to switch to portrait and print modes.
+    <div class="answer"></div>
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+    <button id="btn">Click Me</button>
+
+    <script>
+        const btn = document.getElementById('btn')
+        btn.addEventListener('click', (e) => {
+            e.preventDefault()
+            console.log(1)
+        })
+        btn.addEventListener('click', (e) => {
+            e.stopPropagation()
+            console.log(2)
+        })
+        btn.addEventListener('click', (e) => {
+            e.stopImmediatePropagation()
+            console.log(3)
+        })
+        btn.addEventListener('click', (e) => {
+            console.log(4)
+        })
+    </script>
+</body>
+
+</html>

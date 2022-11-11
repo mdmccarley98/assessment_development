@@ -1,0 +1,23 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+  <div id="outer">
+      <div id="inner">
+          <button id="btn">Click Me</button>
+      </div>
+  </div>
+
+  <script>
+    ['btn', 'outer', 'inner'].forEach((id) => {
+        document.getElementById(id).addEventListener('click', () => {
+            console.log(id)
+        }, capture=true)
+    })
+  </script>
+</body>
+</html>

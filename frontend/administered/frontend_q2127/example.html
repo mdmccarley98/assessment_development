@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+    <!-- Answer -->
+    <script>
+        fetch('https://dog.ceo/api/breeds/image/random')
+            .then(response => response.json())
+            .then(data => console.log(data.message))
+    </script>
+
+    <!-- D1 (cannot use "await" outside of an async function) -->
+    <script>
+        // const result = await fetch('https://dog.ceo/api/breeds/image/random')
+        // const data = await result.json()
+        // console.log(data.message)
+    </script>
+
+    <!-- D2 (fetch() and json() both return promises) -->
+    <script>
+        // const result = fetch('https://dog.ceo/api/breeds/image/random')
+        // const data = result.json()
+        // console.log(data.message)
+    </script>
+
+    <!-- D3 (As though fetch() was a node-style callback) -->
+    <script>
+        // fetch('https://dog.ceo/api/breeds/image/random', (data) => {
+        //     console.log(data.message)
+        // })
+    </script>
+</body>
+
+</html>

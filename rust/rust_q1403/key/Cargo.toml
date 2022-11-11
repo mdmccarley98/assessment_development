@@ -1,0 +1,11 @@
+[package]
+name = "key"
+version = "0.1.0"
+authors = ["Robert Wallis"]
+edition = "2018"
+
+[workspace]
+
+[dependencies]
+rand = "0.7"
+rand_distr = "0.3"

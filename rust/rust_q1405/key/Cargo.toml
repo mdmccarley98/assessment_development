@@ -1,0 +1,10 @@
+[package]
+name = "key"
+version = "0.1.0"
+authors = ["Robert Wallis"]
+edition = "2018"
+
+[workspace]
+
+[dependencies]
+tokio = { version = "0.2", features=["macros", "signal"] }

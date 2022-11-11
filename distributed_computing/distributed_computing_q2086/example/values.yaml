@@ -1,0 +1,5 @@
+config:
+  - "{{ index .Values.config 1 }}"
+  - "item"
+  - "{{ index .Values.config 0 }}"
+value: "{{ index .Values.config 2 }}"

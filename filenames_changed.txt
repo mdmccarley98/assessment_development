@@ -1,0 +1,1194 @@
+{
+  "5-app-architecture.md": {
+    "query_that_joined": "You have been asked to review the architecture of a legacy python web application your team has inherited. In your review you notice that the application is simply started on the server with `sudo python -m http.server 80`.\n\nWhich option is most likely to offer improved security posture?",
+    "new_filename": "security_engineering_q2164.md"
+  },
+  "3-ssh-key-login.md": {
+    "query_that_joined": "Which of the following sshd_config options forces users to login with an ssh key?",
+    "new_filename": "security_engineering_q2178.md"
+  },
+  "3-nmap.md": {
+    "query_that_joined": "The security team needs to run an nmap scan on a server to ensure services are using the latest software. The services you are interested in are Nginx (Web Server) and SSH.\n\nWhich nmap command is best suited for this?",
+    "new_filename": "security_engineering_q2163.md"
+  },
+  "3-outdated-software.md": {
+    "query_that_joined": "Your team is responsible for ensuring that all dependencies of a web application are up to date and have no known vulnerabilities.\n\nWhich of the following solutions would help accomplish this goal best?",
+    "new_filename": "security_engineering_q2221.md"
+  },
+  "4-auth.md": {
+    "query_that_joined": "The web development team is asking you for suggestions on implementing authentication and authorization in a new single page web application that also includes an API and iOS application available to the public. They would like the user to sign in via their Facebook or Google account.\n\nWhich of the ",
+    "new_filename": "security_engineering_q2161.md"
+  },
+  "4-port-scanning.md": {
+    "query_that_joined": "While scanning ports on a server with nmap, you discover port 443 is \"open\" but you notice that other ports are responding with a status of \"filtered\".\n\nWhat is the likely cause for the status \"filtered\" on this server?",
+    "new_filename": "security_engineering_q2166.md"
+  },
+  "4-idor.md": {
+    "query_that_joined": "During a recent penetration test, it was discovered that a user could access other users details by passing in another value to the `details` parameter of the following url:\n\n`https://somewebsite.triplebyte.com/dashboard?details=445`\n\nWhat kind of vulnerability is this?",
+    "new_filename": "security_engineering_q2220.md"
+  },
+  "4-path-traversal.md": {
+    "query_that_joined": "You have been asked to review some suspicious requests in the web server logs.\n\nWhat type of attack was attempted?",
+    "new_filename": "security_engineering_q2180.md"
+  },
+  "5-sql-injection-remediation.md": {
+    "query_that_joined": "Which option will best remediate the following PHP SQL Injection vulnerability?",
+    "new_filename": "security_engineering_q2158.md"
+  },
+  "3-cookies.md": {
+    "query_that_joined": "Which of the following cookies is only transmitted over an encrypted connection and is also not available to client javascript?",
+    "new_filename": "security_engineering_q2179.md"
+  },
+  "5-waf.md": {
+    "query_that_joined": "You have been tasked to add 2 security features to a web application in production.\n\n- Rate Limiting\n- Reject common SQL Injection Attempts\n\nWhich of the following solutions would fill these two needs with minimal downtime to the application?",
+    "new_filename": "security_engineering_q2222.md"
+  },
+  "2-ddos.md": {
+    "query_that_joined": "Which of the following best describes a DDoS attack? An attack that may allow malicious users to overload the application with requests and make it unava",
+    "new_filename": "security_engineering_q2165.md"
+  },
+  "4-xss.md": {
+    "query_that_joined": "Steal a session token.",
+    "new_filename": "security_engineering_q2160.md"
+  },
+  "2-cia.md": {
+    "query_that_joined": "What are the three principles that make up the CIA Triad?",
+    "new_filename": "security_engineering_q2217.md"
+  },
+  "2-penetration-testing-tools.md": {
+    "query_that_joined": "The security team lead wants you to select a tool for penetration testing. It should be comprehensive and allow you to write and execute your own exploit code.\n\nWhich of the following tools is best suited for this task?",
+    "new_filename": "security_engineering_q2159.md"
+  },
+  "3-server-hardening.md": {
+    "query_that_joined": "You are tasked to harden a web server by closing unused ports and removing services that are not needed.\n\nThis is an example of what security principle?",
+    "new_filename": "security_engineering_q2218.md"
+  },
+  "5-password-hashing.md": {
+    "query_that_joined": "You have been asked to review some new user creation code for a python web application.\n\nHow can this code be improved?",
+    "new_filename": "security_engineering_q2162.md"
+  },
+  "2-sql-injection.md": {
+    "query_that_joined": "Which of the following best describes SQL Injection?",
+    "new_filename": "security_engineering_q2157.md"
+  },
+  "2-owasp-top-10.md": {
+    "query_that_joined": "Which answer best describes the OWASP top 10?",
+    "new_filename": "security_engineering_q2219.md"
+  },
+  "2-table-view-rows.md": {
+    "query_that_joined": "You're working on an app with a `UITableView`.\n\nHow do you set the number of rows in a section?",
+    "new_filename": "ios_mobile_knowledge_q1819.md"
+  },
+  "5-po-address.md": {
+    "query_that_joined": "You are debugging the following swift `ViewController` in XCode 12.4.  The debugger is paused at `super.viewDidLoad()`.\n\nIn the \"View hierarchy\" window you can see the address of `ViewController` is `0x7fc05a704b70` however when you run the following command in LLDB it just prints the decimal value.",
+    "new_filename": "ios_mobile_knowledge_q1838.md"
+  },
+  "3-xctest-continue.md": {
+    "query_that_joined": "In the following test case, `XCTAssertGreaterThanOrEqual` fails.\nHowever the function continues to execute and `examples[3]` and `examples[4]` throw beyond bounds exceptions.\n\nHow do you get the test to stop executing after a failure?",
+    "new_filename": "ios_mobile_knowledge_q1830.md"
+  },
+  "2-checkbox.md": {
+    "query_that_joined": "You are writing an app that has a list of customers and employees for a coffee shop.\nThere is a search box where the cashier can search for people in the system.\n\nThe client wants a checkbox to either include or exclude employees from the search results.\n\nWhich UIKit control is best designed to impl",
+    "new_filename": "ios_mobile_knowledge_q1812.md"
+  },
+  "2-tab-bar.md": {
+    "query_that_joined": "Your app has a tab bar at the bottom managed by a `UITabBarController`.\nThe designers want you to create a search button and add it to the tab bar.\n\nWhat base class does the search button need to have?",
+    "new_filename": "ios_mobile_knowledge_q1818.md"
+  },
+  "3-NSMutableDictionary-nil.md": {
+    "query_that_joined": "What does the following Obj-C code do?",
+    "new_filename": "ios_mobile_knowledge_q1827.md"
+  },
+  "2-top-of-navigation-controller.md": {
+    "query_that_joined": "Which control is in the top of a `UINavigationController`?",
+    "new_filename": "ios_mobile_knowledge_q1820.md"
+  },
+  "2-master-detail.md": {
+    "query_that_joined": "You are making a shopping app for iPhone.\nOne screen lists some products, when you tap a product a new screen should be shown with the product details.\nThe details screen should have a back button that goes back to the list of products.\n\nWhich controller is well suited to manage these screens?",
+    "new_filename": "ios_mobile_knowledge_q1815.md"
+  },
+  "4-weak-let.md": {
+    "query_that_joined": "Why does the `thing` variable have an issue?",
+    "new_filename": "ios_mobile_knowledge_q1835.md"
+  },
+  "3-weak-self.md": {
+    "query_that_joined": "What is a common use for `weak self`?",
+    "new_filename": "ios_mobile_knowledge_q1829.md"
+  },
+  "3-EXC_BAD_ACCESS.md": {
+    "query_that_joined": "A program you're working on crashes with `EXC_BAD_ACCESS`.\n\nWhat is the most likely cause?",
+    "new_filename": "ios_mobile_knowledge_q1825.md"
+  },
+  "4-GeometryReader.md": {
+    "query_that_joined": "What does the SwiftUI `GeometryReader` view do?",
+    "new_filename": "ios_mobile_knowledge_q1834.md"
+  },
+  "3-custom-notification.md": {
+    "query_that_joined": "The designers want to use custom art assets in your app's user notification.\n\nWhich of the following describes what needs to be done best?",
+    "new_filename": "ios_mobile_knowledge_q1824.md"
+  },
+  "3-provisioning-profile.md": {
+    "query_that_joined": "You go to build an iOS project and it fails with the following errors:\n\n> No account for team \"A93A5CM278\". Add a new account in the Accounts preference pane or verify that your accounts have valid credentials.\n> No profiles for 'com.example.apple-samplecode.AVCam' were found: Xcode couldn't find an",
+    "new_filename": "ios_mobile_knowledge_q1828.md"
+  },
+  "2-unwind-segue.md": {
+    "query_that_joined": "Which of the following will close the current view controller and automatically choose the view controller to present next.",
+    "new_filename": "ios_mobile_knowledge_q1821.md"
+  },
+  "3-camera-usage-description.md": {
+    "query_that_joined": "When accessing the camera in iOS a dialog is displayed.\nHow do you change the message in the dialog:\n\n> \"Example\" Would Like to Access the Camera\n>\n> YOUR_MESSAGE_HERE",
+    "new_filename": "ios_mobile_knowledge_q1822.md"
+  },
+  "2-IBOutlet.md": {
+    "query_that_joined": "When should you use `IBOutlet` or `IBAction`?",
+    "new_filename": "ios_mobile_knowledge_q1813.md"
+  },
+  "4-command-buffer.md": {
+    "query_that_joined": "Which of the following uses strong references to objects in \"Command Buffers\"?",
+    "new_filename": "ios_mobile_knowledge_q1832.md"
+  },
+  "5-po-r13.md": {
+    "query_that_joined": "What does `po $r13` do?",
+    "new_filename": "ios_mobile_knowledge_q1839.md"
+  },
+  "5-lldb-skip.md": {
+    "query_that_joined": "The debugger is paused at a breakpoint on `var i = 0` in the following snippet.\n\nWhich debugging technique is most likely to result in \"i: 0\" in the console?",
+    "new_filename": "ios_mobile_knowledge_q1837.md"
+  },
+  "3-notificationcenter-push.md": {
+    "query_that_joined": "Below is the code for the only view controller in the Example app.\n\nWhat is displayed on the screen?",
+    "new_filename": "ios_mobile_knowledge_q1826.md"
+  },
+  "2-pull-to-refresh.md": {
+    "query_that_joined": "How do you implement pull-to-refresh in UIKit on a `UIScrollView`?",
+    "new_filename": "ios_mobile_knowledge_q1816.md"
+  },
+  "4-dynamic-binding.md": {
+    "query_that_joined": "What happens if you call the `run` method on `example`?",
+    "new_filename": "ios_mobile_knowledge_q1833.md"
+  },
+  "3-xctest.md": {
+    "query_that_joined": "Which of the following tests FAILS (red)?",
+    "new_filename": "ios_mobile_knowledge_q1831.md"
+  },
+  "2-stackview-distribution.md": {
+    "query_that_joined": "Which of the following UIStackView distributions makes the views all the same size along the axis?",
+    "new_filename": "ios_mobile_knowledge_q1817.md"
+  },
+  "2-leadingAnchor.md": {
+    "query_that_joined": "What side is the \"Leading Anchor\" of a control on?",
+    "new_filename": "ios_mobile_knowledge_q1814.md"
+  },
+  "3-constrain-to-margins.md": {
+    "query_that_joined": "In the \"Add new constraints\" menu in Interface Builder, what does the \"Constrain to margins\" option do?",
+    "new_filename": "ios_mobile_knowledge_q1823.md"
+  },
+  "5-lldb-debug.md": {
+    "query_that_joined": "The following `Example` class is initialized with a shipping address of \"123 Main\" and the `run()` function is called.\n\nHowever the console does not print `Running: 123 Main`.\n\nIs it possible to use LLDB to set `self.shippingAddress = shippingAddress` without changing a line of code?",
+    "new_filename": "ios_mobile_knowledge_q1836.md"
+  },
+  "3-docker-compose.md": {
+    "query_that_joined": "Which of the following IS a feature of Docker Compose?",
+    "new_filename": "distributed_computing_q2080.md"
+  },
+  "1-k8s-delete-file.md": {
+    "query_that_joined": "On an empty kubernetes cluster you run the following commands.\n```\nkubectl create job j --image=alpine -- /usr/bin/env\nkubectl run alpine --image=alpine --restart=Never\nkubectl get pods -o yaml > example.yml\nkubectl run nginx --image=nginx\nkubectl delete -f example.yml\n```\n\nWhich pods were deleted?",
+    "new_filename": "distributed_computing_q2089.md"
+  },
+  "1-docker-exec.md": {
+    "query_that_joined": "There is an issue in production on a service running in docker on a single node.\nYou need to get into the container and change a file *now* manually, \nmeanwhile the fix is already being built and will deploy in about a half hour.\n\nWhen you run `docker ps` on the production VM, the following informat",
+    "new_filename": "distributed_computing_q2082.md"
+  },
+  "3-load-balancing.md": {
+    "query_that_joined": "Which of the following is NOT a primary function of a load balancer?",
+    "new_filename": "distributed_computing_q2081.md"
+  },
+  "2-dead-letter.md": {
+    "query_that_joined": "What is a \"dead letter\" in a pub/sub service?",
+    "new_filename": "distributed_computing_q2076.md"
+  },
+  "3-infrastructure-as-a-service.md": {
+    "query_that_joined": "Amazon EC2, Digital Ocean Droplets, Google Compute Engine, and Azure Compute are examples of what?",
+    "new_filename": "distributed_computing_q2092.md"
+  },
+  "1-k8s-get-services.md": {
+    "query_that_joined": "A colleague is learning kubernetes.\nThey just ran the following commands:\n\n```\n~$ kubectl create deployment hi -n n --image=nginx\ndeployment.apps/hi created\n~$ kubectl expose deployment hi -n n --type=NodePort --port=80\nservice/hi exposed\n```\n\nHowever when they run `kubectl get services`, the `hi` N",
+    "new_filename": "distributed_computing_q2087.md"
+  },
+  "3-k8s-nodeSelector.md": {
+    "query_that_joined": "You are administering a kubernetes cluster with a single node:\n```\nkubectl get nodes --show-labels\nNAME       STATUS   ROLES                  AGE   VERSION   LABELS\nexample    Ready    control-plane,master   62m   v1.20.2   arch=amd64,os=linux\n```\n\nYou apply the following pod config `example.yml`\n``",
+    "new_filename": "distributed_computing_q2088.md"
+  },
+  "3-docker-mount-volume.md": {
+    "query_that_joined": "You checkout a repo with a `Dockerfile` in the root folder, and are currently in the root folder.\nThe README wants you to mirror the current directory with the `/usr/share/nginx/html` directory in the container.\n\nWhich of the following commands will run this repo in docker as described above?",
+    "new_filename": "distributed_computing_q2090.md"
+  },
+  "1-cassandra.md": {
+    "query_that_joined": "The sales data is stored in a Cassandra cluster in a single data center with 10 nodes.  The following is the table schema and data:\n\n```sql\nCREATE KEYSPACE example WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};\n\nUSE example;\n\nCREATE TABLE sales (\n    state text,\n    city te",
+    "new_filename": "distributed_computing_q2079.md"
+  },
+  "3-cloud-pricing.md": {
+    "query_that_joined": "Which of the following VMs will generally have the least yearly cost in dollars?",
+    "new_filename": "distributed_computing_q2093.md"
+  },
+  "1-shared-file-system-permissions.md": {
+    "query_that_joined": "Several linux computers have an NFS file system mounted at `/shared_dir`. UserA is reporting that their files are being modified by someone else.\n\nYou check permissions from UserA's computer:\n```\nuserA@computer1:/shared_dir$ ls -al\ntotal 8\ndrwxr-xr-x  2 shareGroup shareGroup 4096 Jun 10 17:22 .\ndrwx",
+    "new_filename": "distributed_computing_q2077.md"
+  },
+  "3-apache-nginx-docker.md": {
+    "query_that_joined": "Apache is like NGINX.\n\nWhich of the following is the most like Docker?",
+    "new_filename": "distributed_computing_q2091.md"
+  },
+  "3-function-endpoint.md": {
+    "query_that_joined": "The development team just wants to write http endpoints in JavaScript that the cloud provider executes, and only pay for the time the functions are running.  They don't want to worry about provisioning servers, patching OSes, or managing disks.\n\nWhich of the following AWS services is well suited for",
+    "new_filename": "distributed_computing_q2083.md"
+  },
+  "2-service-mesh.md": {
+    "query_that_joined": "Which of the following are NOT a service mesh?",
+    "new_filename": "distributed_computing_q2085.md"
+  },
+  "3-jwt.md": {
+    "query_that_joined": "There is an application that uses JWT for the `Authorization: Bearer` token.  \nWhich parts of the token are irreversibly hashed and encoded?",
+    "new_filename": "distributed_computing_q2075.md"
+  },
+  "2-message-queue.md": {
+    "query_that_joined": "Which of the following best describes a message queue system?",
+    "new_filename": "distributed_computing_q2256.md"
+  },
+  "std-datetime.md": {
+    "query_that_joined": "```python\nprint(datetime.strptime(date_string, \"%m/%d/%Y\").timestamp())\n```",
+    "new_filename": "python_q1320.md"
+  },
+  "syntax-string-cat.md": {
+    "query_that_joined": "Which of the following will NOT return `greeting = \"I need bread, milk, and cheese.\"`?",
+    "new_filename": "python_q1299.md"
+  },
+  "features-import.md": {
+    "query_that_joined": "Say we have the following folder structure for our project:\n\n\n\nAnd we would like to import a class named `ParseString` from the `parsers.py` file in `app.py`. Which is the correct syntax to import the class?",
+    "new_filename": "python_q1316.md"
+  },
+  "containers-inheritance.md": {
+    "query_that_joined": "Assume we have a class `Square` defined below and the class `Cube` which inherits from the class `Square`. \nWhich of the following would calculate the surface area of a cube with a side length of `6`?",
+    "new_filename": "python_q1307.md"
+  },
+  "syntax-types.md": {
+    "query_that_joined": "You're writing a program that looks at images of food and classifies them.\nThe designers decided that cupcakes are equivalent to a cake, if the cake only has 1 layer.\n\nWhich of the following code examples will return `True`?",
+    "new_filename": "python_q1298.md"
+  },
+  "libraries-python-requests.md": {
+    "query_that_joined": "Imagine that the server at `http://example.com/sample.json` returns valid json data.\nWhich of the following choices will get the json data as a Python dictionary?",
+    "new_filename": "python_q1324.md"
+  },
+  "domain-scope.md": {
+    "query_that_joined": "What value will the code below print? dog",
+    "new_filename": "python_q1318.md"
+  },
+  "containers-mutability.md": {
+    "query_that_joined": "Which of the following data types is NOT mutable in Python?",
+    "new_filename": "python_q1305.md"
+  },
+  "std-zip.md": {
+    "query_that_joined": "Will this code run successfully and if so what will be the type of the output?",
+    "new_filename": "python_q1301.md"
+  },
+  "libraries-pandas-dataframe.md": {
+    "query_that_joined": "Will this data produce a valid pandas dataframe? \n\nIf no why not and if yes what will the dataframe look like?",
+    "new_filename": "python_q1325.md"
+  },
+  "syntax-keyword-arguments.md": {
+    "query_that_joined": "Which of the following is NOT valid python? ```python\ndef f(x, y, z):\n    return x + y + z\n\nf(z=3, y=2, 1)\n```",
+    "new_filename": "python_q1297.md"
+  },
+  "containers-dict.md": {
+    "query_that_joined": "Given the Python dictionary below, which option would print the following:\n```\nalgebra 99 python\n```",
+    "new_filename": "python_q1309.md"
+  },
+  "containers-instance-variables.md": {
+    "query_that_joined": "In the code below, in the class `Pet`, are the labelled variables class variables or instance variables?",
+    "new_filename": "python_q1303.md"
+  },
+  "std-json-output.md": {
+    "query_that_joined": "Which of the following options will write a Python dictionary to a `json` file named `output.json`?",
+    "new_filename": "python_q1313.md"
+  },
+  "syntax-string-slice.md": {
+    "query_that_joined": "Which of the following code snippets will convert the string \"I love Python!\" into \"!nohtyP love I\"?",
+    "new_filename": "python_q1300.md"
+  },
+  "std-json-input.md": {
+    "query_that_joined": "I have a json file saved at `./data/day_1.json`. Which of the following will load the json data into a Python dictionary?",
+    "new_filename": "python_q1311.md"
+  },
+  "features-exceptions.md": {
+    "query_that_joined": "What is the output of the code below? Error in variable type",
+    "new_filename": "python_q1315.md"
+  },
+  "std-pip-requirements.md": {
+    "query_that_joined": "How do you make a `requirements.txt` file for a project and how do you install a `requirements.txt` from another project?",
+    "new_filename": "python_q1319.md"
+  },
+  "libraries-numpy-matmul.md": {
+    "query_that_joined": "In numpy, what is the difference between using `*`, `@`, `numpy.matmul()`, and `numpy.dot()` on two numpy arrays?",
+    "new_filename": "python_q1322.md"
+  },
+  "libraries-numpy-shape.md": {
+    "query_that_joined": "What is the `array.shape[0]` equal to for the 2 dimensional array below?",
+    "new_filename": "python_q1323.md"
+  },
+  "features-list-comprehensions.md": {
+    "query_that_joined": "Which of the following will produce a list of values containing the square of every odd number between `1` and `11` (inclusive)?",
+    "new_filename": "python_q1310.md"
+  },
+  "features-static-methods.md": {
+    "query_that_joined": "Assume we want to add a static method to a class that will print out the phrase \"Processing...\". Which of the following choices is correct?",
+    "new_filename": "python_q1312.md"
+  },
+  "containers-reverse.md": {
+    "query_that_joined": "Which of the following code snippets will NOT reverse the string `hello` and return `olleh`?",
+    "new_filename": "python_q1306.md"
+  },
+  "domain-iterators.md": {
+    "query_that_joined": "What value will the code below return? 8",
+    "new_filename": "python_q1304.md"
+  },
+  "containers-class.md": {
+    "query_that_joined": "Assume we have a class `Animal` defined below. Which of the following would create a class `Cat` that inherits from `Animal` with a `talk` method that extends the `talk` method from `Animal`?",
+    "new_filename": "python_q1302.md"
+  },
+  "features-kwargs.md": {
+    "query_that_joined": "Which of the following options converts the function below from a function that takes `3` inputs into one that can take any number of inputs using `*args` and/or `**kwargs`?",
+    "new_filename": "python_q1314.md"
+  },
+  "features-dict-comprehensions.md": {
+    "query_that_joined": "Say we have the dictionary below called `original_dict` and we want to rename the keys to `new_{original_key_name}` and have the new values be the original values mod 5. Which of the following dictionary comprehension code examples will successfully do so?",
+    "new_filename": "python_q1308.md"
+  },
+  "libraries-flask.md": {
+    "query_that_joined": "What will the website return if a `POST` request is made with the JSON data below to the `/info` page?",
+    "new_filename": "python_q1321.md"
+  },
+  "syntax-for-loops.md": {
+    "query_that_joined": "What value will the following code snippet produce?",
+    "new_filename": "python_q1296.md"
+  },
+  "libraries_logrus.md": {
+    "query_that_joined": "Given the following example configuration for logrus,\nwhat can we conclude about the library?",
+    "new_filename": "golang_q1380.md"
+  },
+  "features_channels.md": {
+    "query_that_joined": "Fill in the missing code - `c <- id`",
+    "new_filename": "golang_q1369.md"
+  },
+  "domain_json-tags.md": {
+    "query_that_joined": "JSON Marshal traverses struct values and encodes them as JSON objects.\nWhat is a valid way to generate an Organization JSON without the is_competitor field?",
+    "new_filename": "golang_q1384.md"
+  },
+  "domain_defer-bug.md": {
+    "query_that_joined": "What's wrong with this code? - using `defer` before checking for `nil` error",
+    "new_filename": "golang_q1381.md"
+  },
+  "libraries_gin.md": {
+    "query_that_joined": "Given the following signature for the gin router POST method and HandlerFunc,\nwhat is the correct way to write a post route using the Wrapper func?",
+    "new_filename": "golang_q1379.md"
+  },
+  "standard-library_files.md": {
+    "query_that_joined": "When passing a Buffer as an io.Writer, we need to be pass a pointer to the buffer\ninstead of the buffer itself. Why is this?",
+    "new_filename": "golang_q1375.md"
+  },
+  "syntax_variable.md": {
+    "query_that_joined": "Declare a variable outside of the main function assigned to the value of 42.5",
+    "new_filename": "golang_q1356.md"
+  },
+  "features_interfaces.md": {
+    "query_that_joined": "You are building a package to generate pdf's from different form data.\nThe package will be responsible of taking in form data, validating,\nand generating a pdf from an html template. What would be a good design for the package?",
+    "new_filename": "golang_q1370.md"
+  },
+  "libraries_mod.md": {
+    "query_that_joined": "Modules are how Go manages dependencies. Which is true about modules?",
+    "new_filename": "golang_q1378.md"
+  },
+  "features_methods.md": {
+    "query_that_joined": "Which is the correct function signature of a method that updates a place rating",
+    "new_filename": "golang_q1366.md"
+  },
+  "syntax_defer.md": {
+    "query_that_joined": "What's the purpose of `defer` in this function?",
+    "new_filename": "golang_q1357.md"
+  },
+  "features_goroutines.md": {
+    "query_that_joined": "Which of the following is a false statement about goroutines?",
+    "new_filename": "golang_q1367.md"
+  },
+  "data-structures_structs.md": {
+    "query_that_joined": "- Which is an invalid way to initialize a struct?",
+    "new_filename": "golang_q1362.md"
+  },
+  "standard-library_reflect.md": {
+    "query_that_joined": "What is the typical use of the reflect package?",
+    "new_filename": "golang_q1374.md"
+  },
+  "syntax_pointers.md": {
+    "query_that_joined": "What's the expected output of the following code? - false",
+    "new_filename": "golang_q1360.md"
+  },
+  "domain_capitalize.md": {
+    "query_that_joined": "Select the line of code that completes the function - `return string(tmp)`",
+    "new_filename": "golang_q1385.md"
+  },
+  "syntax_range.md": {
+    "query_that_joined": "What's the expected output from running the main function?",
+    "new_filename": "golang_q1359.md"
+  },
+  "libraries_errors.md": {
+    "query_that_joined": "The errors package is used to",
+    "new_filename": "golang_q1376.md"
+  },
+  "data-structures_embedding.md": {
+    "query_that_joined": "What is it called when adding User into the Admin struct?",
+    "new_filename": "golang_q1363.md"
+  },
+  "domain_time.md": {
+    "query_that_joined": "What is the purpose of the first argument of Parse in the time package?",
+    "new_filename": "golang_q1383.md"
+  },
+  "standard-library_http.md": {
+    "query_that_joined": "Which is a proper way to timeout an HTTP request?",
+    "new_filename": "golang_q1372.md"
+  },
+  "standard-library_testing.md": {
+    "query_that_joined": "When using the testing standard library, what feature is not supported:",
+    "new_filename": "golang_q1373.md"
+  },
+  "syntax_for.md": {
+    "query_that_joined": "Which is an incorrect use of the `for` loop. - `for (i := 0; i < 10; i++) {}`",
+    "new_filename": "golang_q1358.md"
+  },
+  "domain_wait-group.md": {
+    "query_that_joined": "Fill in the missing code - `defer wg.Done()`",
+    "new_filename": "golang_q1382.md"
+  },
+  "libraries_gorm.md": {
+    "query_that_joined": "What is the error in the following code? - not passing the pointer of user",
+    "new_filename": "golang_q1377.md"
+  },
+  "data-structures_map.md": {
+    "query_that_joined": "Accessing a map returns a optional second value, what is it?",
+    "new_filename": "golang_q1361.md"
+  },
+  "standard-library_json.md": {
+    "query_that_joined": "What is the proper method to parse JSON-encoded data in the encoding/json library?",
+    "new_filename": "golang_q1371.md"
+  },
+  "data-structures_exports.md": {
+    "query_that_joined": "Which of the following statements is false about exports?",
+    "new_filename": "golang_q1365.md"
+  },
+  "features_errors.md": {
+    "query_that_joined": "Which of the followings is considered good practice when handling errors?",
+    "new_filename": "golang_q1368.md"
+  },
+  "data-structures_slices.md": {
+    "query_that_joined": "- [Shark Salmon Osprey]",
+    "new_filename": "golang_q1364.md"
+  },
+  "1-manipulate-stemming-lemmatization.md": {
+    "query_that_joined": "Stemming and lemmatization are two preprocessing methods for natural language. Both aim to reduce words into a simpler base form such as converting \"walking\" to \"walk\".\n\nWhich of the following statements accurately contrasts the two methods?",
+    "new_filename": "machine_learning_q2186.md"
+  },
+  "7-performance-metrics-f1-score.md": {
+    "query_that_joined": "You have deployed a model which currently has a precision of P and a recall of R, where 1 > P > R > 0. \n\nYou have been working on some modifications to try and improve your model's F1 score, which is defined as the harmonic mean of precision and recall and given by the equation `2 * P * R / (P + R)`",
+    "new_filename": "machine_learning_q2187.md"
+  },
+  "8-memory-efficiency-strided-access-matmul.md": {
+    "query_that_joined": "A common operation in machine learning is to perform the matrix multiplication algorithm on `NxN` square matrixes `A` and `B` stored in row-major order, and write the result to another `NxN` matrix `C`. \n\nPseudocode for two ways to do this is shown below, with different ordering of the loops. \n\nIf t",
+    "new_filename": "machine_learning_q2188.md"
+  },
+  "4-models-gbdt-overfitting.md": {
+    "query_that_joined": "When using a gradient boosted decision tree such as xgboost, which of the following hyperparameters should be _increased_ in order to reduce overfitting?",
+    "new_filename": "machine_learning_q2189.md"
+  },
+  "4-models-decision_tree_gini_impurity.md": {
+    "query_that_joined": "Consider a binary classification dataset with two numerical features `X1` and `X2`.\n\nYou train a decision tree classifier using Gini impurity for choosing split points. \n\nIf `p(i)` is the probability of class i in a dataset, the Gini impurity of a set of points is defined as the sum over each class ",
+    "new_filename": "machine_learning_q2190.md"
+  },
+  "4-models-momentum.md": {
+    "query_that_joined": "Consider the following plot of an objective function optimized using stochastic gradient descent with momentum.\n\n\n\nThe optimizer has two parameters, learning rate `α` and momentum rate `β`, where `β = 0` corresponds to no momentum. \n\nWhich of the following adju",
+    "new_filename": "machine_learning_q2191.md"
+  },
+  "4-models-learning_rate.md": {
+    "query_that_joined": "When using stochastic gradient descent, which of the following would NOT be an appropriate learning rate schedule?",
+    "new_filename": "machine_learning_q2192.md"
+  },
+  "8-streaming-rolling_mean.md": {
+    "query_that_joined": "The following function should accept an array of floating point values and compute the moving average (aka rolling average) over the specified window size.\n\nFor example, after passing `[2, 4, 6, 8, 10]` and a window_size of `3`, the output array should be `[2, 3, 4, 6, 8]`.\n\nComplete the function by",
+    "new_filename": "machine_learning_q2193.md"
+  },
+  "4-models-clustering.md": {
+    "query_that_joined": "Which of the following clustering algorithms would be most appropriate given a dataset that has a very large number of data points and clusters that vary widely in size and shape?",
+    "new_filename": "machine_learning_q2194.md"
+  },
+  "4-models-random_forest_split_criterion.md": {
+    "query_that_joined": "When fitting an ensemble of decision tree classifiers, at each non-terminal node we need to choose a split condition to grow the tree. \n\nWhich of the following is NOT an established method for choosing the split?",
+    "new_filename": "machine_learning_q2195.md"
+  },
+  "8-streaming-variance.md": {
+    "query_that_joined": "The following function should accept an array of floating point values, and compute the sample variance in a numerically stable way.\n\nComplete the function by filling in the missing expression.",
+    "new_filename": "machine_learning_q2196.md"
+  },
+  "1-manipulate-dimensionality-reduction-lda.md": {
+    "query_that_joined": "Linear discriminant analysis (LDA) is a common method for dimensionality reduction. \n\nConsider a dataset with 100 continuous input features and 3 target classes. After applying LDA, what is the possible number of output dimensions?",
+    "new_filename": "machine_learning_q2197.md"
+  },
+  "4-models-condition_number.md": {
+    "query_that_joined": "Consider the linear equation `Ax = b` for matrix `A` and vectors `x`, `b`. \n\nYou solve `x = A⁻¹b` and compute the associated condition number. Which of the following is a valid interpretation of that condition number?",
+    "new_filename": "machine_learning_q2198.md"
+  },
+  "8-parallel-embarrassingly-parallel.md": {
+    "query_that_joined": "An \"embarrassingly parallel\" problem is one where it is trivial to divide the problem into multiple tasks that can run in parallel.\n\nWhich of the following models can be trained in this manner?",
+    "new_filename": "machine_learning_q2199.md"
+  },
+  "8-streaming-reservoir_sampling.md": {
+    "query_that_joined": "The following function should accept an array of values, and return a sample of `r` items, chosen uniformly at random and without replacement.\n\nUsing the function `randrange(a)` which returns returns a random integer between `0` inclusive and `a` exclusive, complete the function by filling in the mi",
+    "new_filename": "machine_learning_q2200.md"
+  },
+  "4-models-hyperparameter_search.md": {
+    "query_that_joined": "Consider a machine learning model with multiple tunable hyperparameters. Which of the following is NOT a generally valid strategy for finding the best combination of hyperparameters?",
+    "new_filename": "machine_learning_q2201.md"
+  },
+  "4-models-semisupervised.md": {
+    "query_that_joined": "Suppose you have a small labeled dataset, and you wish to classify a large unlabeled dataset drawn from the same distribution. \n\nWhich of the following algorithms would be most suitable?",
+    "new_filename": "machine_learning_q2202.md"
+  },
+  "7-performance-metrics-precision-recall-curve.md": {
+    "query_that_joined": "You have trained and deployed four different models to detect fraudulent credit card transactions, which occur only about 1% of the time. To compare your models, you plot the following precision-recall curves. \n\n\n\nWhich model should be selecte",
+    "new_filename": "machine_learning_q2203.md"
+  },
+  "8-streaming-random_element.md": {
+    "query_that_joined": "The following function should accept an array and return an item chosen uniformly at random.\n\nUsing the function `randint(a)` which returns returns a random integer between `0` inclusive and `a`, inclusive, complete the function by filling in the missing expression.",
+    "new_filename": "machine_learning_q2204.md"
+  },
+  "7-data-quality-covariate_shift.md": {
+    "query_that_joined": "Your company has decided to train and deploy its own spam filter using years of historical emails sent to company addresses. \n\nWhich of the following would be an instance of \"covariate shift\" between the training and deployment distributions?",
+    "new_filename": "machine_learning_q2206.md"
+  },
+  "4-models-adaboost.md": {
+    "query_that_joined": "The Adaptive Boosting (AdaBoost) classifier fits multiple copies of a base learner on the same dataset and combines their outputs. \n\nWhich of the following is true about AdaBoost?",
+    "new_filename": "machine_learning_q2207.md"
+  },
+  "4-models-sgd_lbfgs.md": {
+    "query_that_joined": "Stochastic gradient descent (SGD) and Limited-memory BFGS (L-BFGS) are two common approaches for minimizing a differentiable objective function. \n\nSGD uses only the gradient of the objective, while L-BFGS estimates the second derivative as well. Which of the following is a valid comparison of the tw",
+    "new_filename": "machine_learning_q2208.md"
+  },
+  "7-performance-metrics-roc-sensitivity.md": {
+    "query_that_joined": "You have trained and deployed four different models to screen for a certain disease. During a trial period, your models made predictions that were compared to expert evaluations, resulting in the following receiver operating characteristic (ROC) curves:\n\n![Plot](7-performance-metrics-roc-sensitivity",
+    "new_filename": "machine_learning_q2209.md"
+  },
+  "4-models-random_forest_very_large.md": {
+    "query_that_joined": "Consider a random forest trained on the MNIST dataset: a dataset of handwritten single digits where the features are the pixel values of a 28x28 grayscale image and the target is the digit. \n\nYou incrementally build the forest using large decision trees of up to 2000 nodes as the base learner. \n\nAt ",
+    "new_filename": "machine_learning_q2210.md"
+  },
+  "1-manipulate-sentiment-analysis-preprocessing.md": {
+    "query_that_joined": "Which of the following representations of a document would be most useful for performing sentiment analysis using Naive Bayes?",
+    "new_filename": "machine_learning_q2211.md"
+  },
+  "1-manipulate-smote.md": {
+    "query_that_joined": "The Synthetic Minority Oversampling Technique (SMOTE) is a common form of data augmentation used for imbalanced classification problems (one class is more rare than the other). SMOTE creates new data in the rare class as a convex combination of an existing member of the rare class and one of its k n",
+    "new_filename": "machine_learning_q2212.md"
+  },
+  "7-data-quality-distribution_shift.md": {
+    "query_that_joined": "Which of the following would NOT be an instance of \"distribution shift\" (also known as \"domain shift\")?",
+    "new_filename": "machine_learning_q2213.md"
+  },
+  "1-manipulate-logsumexp.md": {
+    "query_that_joined": "Scientific libraries like NumPy or SciPy provide a function called `logsumexp(x)` which takes a vector `x` and computes the expression `log(sum(exp(x)))` in a numerically stable way. \n\nA common application of this in machine learning is converting a vector `x` of log-likelihoods to a vector of norma",
+    "new_filename": "machine_learning_q2214.md"
+  },
+  "1-manipulate-dimensionality-reduction-pca.md": {
+    "query_that_joined": "Principal component analysis (PCA) is a common method for dimensionality reduction. \n\nConsider a `n x d` matrix `X` with `n` observations and `d` features.\n\nAfter using PCA to reduce `X` to `d/2` output columns, which of the following is necessarily true?",
+    "new_filename": "machine_learning_q2215.md"
+  },
+  "7-data-quality-one-hot-unknown.md": {
+    "query_that_joined": "Suppose you have trained and deployed a model for determining the value of a used car, where the features include the manufacturer of the car represented as a one-hot (aka dummy) encoded variable.\n\nWhich of the following would NOT be a commonly accepted method for encoding a new car manufacturer tha",
+    "new_filename": "machine_learning_q2216.md"
+  },
+  "1-manipulate-mean-imputation.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2023,
+    "new_filename": "data_science_q2023.md"
+  },
+  "2-model-evaluation-kmeans.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2027,
+    "new_filename": "data_science_q2027.md"
+  },
+  "3-evaluation-random-walk-k-steps.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2035,
+    "new_filename": "data_science_q2035.md"
+  },
+  "3-visualize-qqplot-location-scale.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2024,
+    "new_filename": "data_science_q2024.md"
+  },
+  "2-statisticalmodels-ols-heteroscedasticity.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2034,
+    "new_filename": "data_science_q2034.md"
+  },
+  "3-evaluation-confidence-interval.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2039,
+    "new_filename": "data_science_q2039.md"
+  },
+  "2-probability-theory-likelihood.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2037,
+    "new_filename": "data_science_q2037.md"
+  },
+  "2-statisticalmodels-correlation-dependence.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2036,
+    "new_filename": "data_science_q2036.md"
+  },
+  "2-statisticalmodels-sum-residuals.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2033,
+    "new_filename": "data_science_q2033.md"
+  },
+  "3-evaluation-pvalue-small.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2041,
+    "new_filename": "data_science_q2041.md"
+  },
+  "2-statisticalmodels-ols-autocorrelation.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2050,
+    "new_filename": "data_science_q2050.md"
+  },
+  "2-probability-theory-iid.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2043,
+    "new_filename": "data_science_q2043.md"
+  },
+  "1-inspect-multicollinearity.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2028,
+    "new_filename": "data_science_q2028.md"
+  },
+  "3-evaluation-pvalue-large.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2038,
+    "new_filename": "data_science_q2038.md"
+  },
+  "3-visualize-aa.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2022,
+    "new_filename": "data_science_q2022.md"
+  },
+  "3-evaluation-random-walk-drift.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2032,
+    "new_filename": "data_science_q2032.md"
+  },
+  "2-probability-theory-joint-normal.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2025,
+    "new_filename": "data_science_q2025.md"
+  },
+  "3-evaluation-confidence-interval-noninferiority.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2045,
+    "new_filename": "data_science_q2045.md"
+  },
+  "2-model-evaluation-stat-leakage.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2042,
+    "new_filename": "data_science_q2042.md"
+  },
+  "1-feature-engineering-nonlinear.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2049,
+    "new_filename": "data_science_q2049.md"
+  },
+  "3-evaluation-adjusted-r2.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2051,
+    "new_filename": "data_science_q2051.md"
+  },
+  "2-preprocessing-feature-hashing.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2029,
+    "new_filename": "data_science_q2029.md"
+  },
+  "1-manipulate-multiple-imputation.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2046,
+    "new_filename": "data_science_q2046.md"
+  },
+  "2-model-evaluation-l2-large.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2044,
+    "new_filename": "data_science_q2044.md"
+  },
+  "2-probability-theory-beta-prior.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2031,
+    "new_filename": "data_science_q2031.md"
+  },
+  "2-statisticalmodels-ols-covariance.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2030,
+    "new_filename": "data_science_q2030.md"
+  },
+  "1-feature-selection-omitted-variable.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2047,
+    "new_filename": "data_science_q2047.md"
+  },
+  "3-visualize-qqplot-skew.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2026,
+    "new_filename": "data_science_q2026.md"
+  },
+  "1-manipulate-discretization.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2048,
+    "new_filename": "data_science_q2048.md"
+  },
+  "lang_javascript_14.md": {
+    "query_that_joined": "What is logged when the function 'second' runs?",
+    "new_filename": "javascript_q1339.md"
+  },
+  "lang_javascript_20.md": {
+    "query_that_joined": "Redux relies on strict data flow to keep your app predictable. You want to make an API call and save the resulting data in state. Where in the Redux process should you perform the API call?\n\n1. You call store.dispatch(action)\n2. The Redux store calls the reducer function you gave it.\n3. The root red",
+    "new_filename": "javascript_q1345.md"
+  },
+  "lang_javascript_30.md": {
+    "query_that_joined": "Which of these git hooks is the most common to run lint checks and unit tests?",
+    "new_filename": "javascript_q1355.md"
+  },
+  "lang_javascript_04.md": {
+    "query_that_joined": "Which of the following does NOT create a valid function?",
+    "new_filename": "javascript_q1329.md"
+  },
+  "lang_javascript_24.md": {
+    "query_that_joined": "React Hooks eliminated the need for what?",
+    "new_filename": "javascript_q1349.md"
+  },
+  "lang_javascript_10.md": {
+    "query_that_joined": "Which of the following descriptions is true of an application that uses full server-side rendering (SSR) as opposed to client-side rendering (CSR)?",
+    "new_filename": "javascript_q1335.md"
+  },
+  "lang_javascript_25.md": {
+    "query_that_joined": "What is true about the design of Vue?",
+    "new_filename": "javascript_q1350.md"
+  },
+  "lang_javascript_11.md": {
+    "query_that_joined": "You want to implement a throttling function to help with site latency. Which library would help you achieve this?",
+    "new_filename": "javascript_q1336.md"
+  },
+  "lang_javascript_01.md": {
+    "query_that_joined": "Function apiCall takes 50ms to asynchronously return the string 'b'. In what order do these letters log to the console?",
+    "new_filename": "javascript_q1326.md"
+  },
+  "lang_javascript_15.md": {
+    "query_that_joined": "A client makes an identical HTTP request several times. Which request type will have a server side-effect on the first run, but not on subsequent runs?",
+    "new_filename": "javascript_q1340.md"
+  },
+  "lang_javascript_21.md": {
+    "query_that_joined": "Which of the following is NOT a popular Javascript testing framework?",
+    "new_filename": "javascript_q1346.md"
+  },
+  "lang_javascript_05.md": {
+    "query_that_joined": "The following code results in a Reference Error. Which line of code could you add to fix this error?",
+    "new_filename": "javascript_q1330.md"
+  },
+  "lang_javascript_18.md": {
+    "query_that_joined": "You have information about customer orders. You want to save this information in a way that preserves all the data chronologically. You also want to be able to search for the data instantly. Which of these formats will work best?",
+    "new_filename": "javascript_q1343.md"
+  },
+  "lang_javascript_08.md": {
+    "query_that_joined": "There are two nested DOM elements, a parent and a child. What is the value of x after clicking the child element once?",
+    "new_filename": "javascript_q1333.md"
+  },
+  "lang_javascript_28.md": {
+    "query_that_joined": "What is a common Javascript technique used to create encapsulation?",
+    "new_filename": "javascript_q1353.md"
+  },
+  "lang_javascript_29.md": {
+    "query_that_joined": "What is false about getters and setters in Javascript?",
+    "new_filename": "javascript_q1354.md"
+  },
+  "lang_javascript_09.md": {
+    "query_that_joined": "At what level does it make the most sense to use Babel?",
+    "new_filename": "javascript_q1334.md"
+  },
+  "lang_javascript_26.md": {
+    "query_that_joined": "What is the value of ```arr``` after this code runs?",
+    "new_filename": "javascript_q1351.md"
+  },
+  "lang_javascript_12.md": {
+    "query_that_joined": "You want some data to persist through a page refresh but not when the browser is closed. Which client-side storage fits your needs best?",
+    "new_filename": "javascript_q1337.md"
+  },
+  "lang_javascript_02.md": {
+    "query_that_joined": "How can the runtime performance of this function be improved?",
+    "new_filename": "javascript_q1327.md"
+  },
+  "lang_javascript_16.md": {
+    "query_that_joined": "Which of the two options will successfully log the varieties in the Apple class?",
+    "new_filename": "javascript_q1341.md"
+  },
+  "lang_javascript_22.md": {
+    "query_that_joined": "What is a commonly claimed best-practice for writing unit tests?",
+    "new_filename": "javascript_q1347.md"
+  },
+  "lang_javascript_17.md": {
+    "query_that_joined": "What is the purpose of the ```super``` keyword?",
+    "new_filename": "javascript_q1342.md"
+  },
+  "lang_javascript_23.md": {
+    "query_that_joined": "What is the defining feature of a middleware function in Express.js?",
+    "new_filename": "javascript_q1348.md"
+  },
+  "lang_javascript_07.md": {
+    "query_that_joined": "Which data serialization format can Javascript parse natively?",
+    "new_filename": "javascript_q1332.md"
+  },
+  "lang_javascript_27.md": {
+    "query_that_joined": "The getData function is asynchronous but you forget to use the await keyword in the function below. What will happen if the getData Promise is rejected?",
+    "new_filename": "javascript_q1352.md"
+  },
+  "lang_javascript_13.md": {
+    "query_that_joined": "This code does not throw an error, even though a variable is not explicitly declared. Which of these actions will make this code throw a Javascript reference error?",
+    "new_filename": "javascript_q1338.md"
+  },
+  "lang_javascript_03.md": {
+    "query_that_joined": "What is a valid way to compare if array a is a deep copy of array b?",
+    "new_filename": "javascript_q1328.md"
+  },
+  "1-bash-script.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2060,
+    "new_filename": "dev_automation_q2060.md"
+  },
+  "3-rdbms.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2055,
+    "new_filename": "dev_automation_q2055.md"
+  },
+  "2-sys-config.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2056,
+    "new_filename": "dev_automation_q2056.md"
+  },
+  "3-environment.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2057,
+    "new_filename": "dev_automation_q2057.md"
+  },
+  "2-twelve-factor.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2061,
+    "new_filename": "dev_automation_q2061.md"
+  },
+  "1-detatched-head.md": {
+    "query_that_joined": "Your project is setup in Travis CI.\nLooking at the build logs you see this warning:\n\n> You are in 'detached HEAD' state.\n\nWhat does this mean?",
+    "new_filename": "dev_automation_q2059.md"
+  },
+  "1-git-rejected.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2069,
+    "new_filename": "dev_automation_q2069.md"
+  },
+  "1-ctrl-c.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2067,
+    "new_filename": "dev_automation_q2067.md"
+  },
+  "1-git-fetch.md": {
+    "query_that_joined": "You have the `main` branch checked out in `git`.\nYour local `main` branch is tracking `origin/main`.\nThe `origin` is one commit ahead.\nWhen you type `git status` it says \"Your branch is up to date with 'origin/main'.\"\n\nWhat happens when you type `git fetch`?",
+    "new_filename": "dev_automation_q2064.md"
+  },
+  "1-git-rename-branch.md": {
+    "query_that_joined": "Your colleague just committed code to their local `main` branch.\nThen, they run these commands:\n```\ngit checkout -b feature_x\ngit branch -D main\ngit push -u origin feature_x\ngit checkout main\n```\n\nWhat is the state of the local and origin repositories?",
+    "new_filename": "dev_automation_q2068.md"
+  },
+  "1-ssh-keygen.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2065,
+    "new_filename": "dev_automation_q2065.md"
+  },
+  "1-git-remote-checked-out.md": {
+    "query_that_joined": "You are setting up a remote git repository so that developers can push their code to your remote.\n\nWhen testing it out, if you `git push` you get the following error.\n\nWhich method will continue to produce the SAME error below?",
+    "new_filename": "dev_automation_q2054.md"
+  },
+  "1-ssh-key.md": {
+    "query_that_joined": "A system administrator wants your SSH key to give you access to a server.\n\nWhich file should you send to them?",
+    "new_filename": "dev_automation_q2063.md"
+  },
+  "2-infra-as-code.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2066,
+    "new_filename": "dev_automation_q2066.md"
+  },
+  "2-ci-security.md": {
+    "query_that_joined": "The node.js library for a product SDK at your company is hosted in a public GitHub repository.\nYour users often suggest features and make pull-requests to improve your SDK.\nThe SDK repo is configured using GitHub Actions.\n\nWhich feature of GitHub Actions may pose a security risk to the company?",
+    "new_filename": "dev_automation_q2074.md"
+  },
+  "3-sshd-authorized-keys-command.md": {
+    "query_that_joined": "The sshd_config file of a server contains:\n\n```\nAuthorizedKeysCommand /usr/local/bin/auth.sh\n```\n\nWhat does this do?",
+    "new_filename": "dev_automation_q2062.md"
+  },
+  "3-unix-socket.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2070,
+    "new_filename": "dev_automation_q2070.md"
+  },
+  "2-ci-cd.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2072,
+    "new_filename": "dev_automation_q2072.md"
+  },
+  "2-jenkins-pipelines.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2073,
+    "new_filename": "dev_automation_q2073.md"
+  },
+  "3-deployment-strategies.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2058,
+    "new_filename": "dev_automation_q2058.md"
+  },
+  "2-signing-iOS-apps.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2071,
+    "new_filename": "dev_automation_q2071.md"
+  },
+  "11_sql-basic-queries-dictionary-sort.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2319,
+    "new_filename": "sql_q2319.md"
+  },
+  "12_sql-basic-queries-add-comment-column.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2335,
+    "new_filename": "sql_q2335.md"
+  },
+  "03_sql-basic-queries-persons-nurses.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2326,
+    "new_filename": "sql_q2326.md"
+  },
+  "06_sql-missing-ternary-once-no-comments.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2329,
+    "new_filename": "sql_q2329.md"
+  },
+  "13_sql-advanced-queries-earliest-or-latest.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2351,
+    "new_filename": "sql_q2351.md"
+  },
+  "10_sql-missing-ternary-operating-hours.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2318,
+    "new_filename": "sql_q2318.md"
+  },
+  "07_sql-basic-queries-binding-error.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2315,
+    "new_filename": "sql_q2315.md"
+  },
+  "09_sql-basic-queries-count-lee.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2317,
+    "new_filename": "sql_q2317.md"
+  },
+  "01_sql-basics-primary-key.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2309,
+    "new_filename": "sql_q2309.md"
+  },
+  "09_sql-advanced-queries-vaccinated-no-comment.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2347,
+    "new_filename": "sql_q2347.md"
+  },
+  "02_sql-basic-queries-group-by-expressions.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2325,
+    "new_filename": "sql_q2325.md"
+  },
+  "11_sql-optimization-facilitate-and-optimize.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2349,
+    "new_filename": "sql_q2349.md"
+  },
+  "10_sql-advanced-queries-not-vaccinated-or-no-comments.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2333,
+    "new_filename": "sql_q2333.md"
+  },
+  "03_sql-missing-ternary-unknown-predicate.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2311,
+    "new_filename": "sql_q2311.md"
+  },
+  "03_sql-advanced-queries-total-vaccines-administered.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2341,
+    "new_filename": "sql_q2341.md"
+  },
+  "01_sql-basics-age-of-person.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2339,
+    "new_filename": "sql_q2339.md"
+  },
+  "11_sql-advanced-queries-query-with-sample-data.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2334,
+    "new_filename": "sql_q2334.md"
+  },
+  "05_sql-basic-queries-no-action.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2313,
+    "new_filename": "sql_q2313.md"
+  },
+  "08_sql-basic-queries-distinct-sites.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2316,
+    "new_filename": "sql_q2316.md"
+  },
+  "04_sql-optimization-best-index.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2342,
+    "new_filename": "sql_q2342.md"
+  },
+  "15_sql-advanced-queries-different-vaccines.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2353,
+    "new_filename": "sql_q2353.md"
+  },
+  "05_sql-basics-tracking-working-hours.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2328,
+    "new_filename": "sql_q2328.md"
+  },
+  "06_sql-optimization-multisite-nurses.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2344,
+    "new_filename": "sql_q2344.md"
+  },
+  "07_sql-basic-queries-name-change.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2330,
+    "new_filename": "sql_q2330.md"
+  },
+  "01_sql-advanced-queries-highest-number.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2324,
+    "new_filename": "sql_q2324.md"
+  },
+  "04_sql-missing-ternary-null-comments.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2327,
+    "new_filename": "sql_q2327.md"
+  },
+  "04_sql-missing-ternary-null.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2312,
+    "new_filename": "sql_q2312.md"
+  },
+  "14_sql-basics-true-about-views.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2352,
+    "new_filename": "sql_q2352.md"
+  },
+  "10_sql-missing-ternary-coast-to-coast.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2348,
+    "new_filename": "sql_q2348.md"
+  },
+  "12_sql-basic-queries-invalid-select.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2320,
+    "new_filename": "sql_q2320.md"
+  },
+  "05_sql-basics-automatic-updates.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2343,
+    "new_filename": "sql_q2343.md"
+  },
+  "15_sql-optimization-make-it-faster.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2338,
+    "new_filename": "sql_q2338.md"
+  },
+  "02_sql-basics-composite-values.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2310,
+    "new_filename": "sql_q2310.md"
+  },
+  "08_sql-basic-queries-having-multiple-emails.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2331,
+    "new_filename": "sql_q2331.md"
+  },
+  "14_sql-sql-missing-ternary-truth-predicate.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2337,
+    "new_filename": "sql_q2337.md"
+  },
+  "06_sql-missing-ternary-coalesce-not-null.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2314,
+    "new_filename": "sql_q2314.md"
+  },
+  "02_sql-advanced-queries-all-providers.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2340,
+    "new_filename": "sql_q2340.md"
+  },
+  "08_sql-basic-queries-better-to-give-than-receive.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2346,
+    "new_filename": "sql_q2346.md"
+  },
+  "09_sql-basic-queries-have-not-been-vaccinated.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2332,
+    "new_filename": "sql_q2332.md"
+  },
+  "15_sql-optimization-composite-index.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2323,
+    "new_filename": "sql_q2323.md"
+  },
+  "07_sql-missing-ternary-comparison-of-null.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2345,
+    "new_filename": "sql_q2345.md"
+  },
+  "12_sql-advanced-queries-known-work-duration.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2350,
+    "new_filename": "sql_q2350.md"
+  },
+  "14_sql-optimization-improve-slow-query.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2322,
+    "new_filename": "sql_q2322.md"
+  },
+  "13_sql-basic-queries-self-administer.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2336,
+    "new_filename": "sql_q2336.md"
+  },
+  "13_sql-basics-avoid-repeat-query.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2321,
+    "new_filename": "sql_q2321.md"
+  }
+}

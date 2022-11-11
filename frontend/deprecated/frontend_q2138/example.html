@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+    <my-component></my-component>
+
+    <the-right-way></the-right-way>
+
+    <script>
+        class MyComponent extends HTMLElement {
+            constructor() {
+                super()
+                this.attachShadow({ mode: 'closed' })
+            }
+            connectedCallback() {
+                this.shadowRoot.innerHTML = '<p>Hello</p>'
+            }
+        }
+
+        window.customElements.define("my-component", MyComponent)
+
+        class TheRightWay extends HTMLElement {
+            constructor() {
+                super()
+                this._customReference = this.attachShadow({ mode: 'closed' })
+            }
+            connectedCallback() {
+                this._customReference.innerHTML = '<p>The right way</p>'
+            }
+        }
+
+        window.customElements.define("the-right-way", TheRightWay)
+    </script>
+</body>
+
+</html>

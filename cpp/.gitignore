@@ -1,0 +1,11 @@
+# C++ artefacts
+*.exe
+*.o
+build/
+
+# CLion on each item
+.idea/
+
+#VSCode 
+../.vscode/launch.json
+../.vscode/tasks.json

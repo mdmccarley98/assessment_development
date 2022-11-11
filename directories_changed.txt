@@ -1,0 +1,1216 @@
+{
+  "5-error-handling/README.md": {
+    "query_that_joined": "Please review the code below.\n\nWhat is the most likely security issue with this code?",
+    "new_dirname": "security_engineering_q2181"
+  },
+  "3-multistage/README.md": {
+    "query_that_joined": "The following is the contents of the Dockerfile for a container.\n\nWhat is the output when this container is executed?",
+    "new_dirname": "distributed_computing_q2078"
+  },
+  "1-helm-template/README.md": {
+    "query_that_joined": "You have the following helm configuration named \"example\" installed in your k8s cluster:\n\n`./templates/example.yaml`\n```\napiVersion: v1\nkind: ConfigMap\nmetadata:\n  name: {{ .Release.Name }}-configmap\ndata:\n  value: \"{{ tpl .Values.value . }}\" \n```\n\n`./values.yaml`\n```\nconfig:\n  - \"{{ index .Values.c",
+    "new_dirname": "distributed_computing_q2086"
+  },
+  "1-docker-logs/README.md": {
+    "query_that_joined": "You are troubleshooting an app that uses `docker-compose`.\nThe app exited after encountering an error.\n\nWhen you type `docker ps -a` this is what is printed:\n```\nCONTAINER ID   IMAGE         COMMAND                  CREATED          STATUS                       PORTS     NAMES\n3771dfc4a5f7   example",
+    "new_dirname": "distributed_computing_q2084"
+  },
+  "2-scheduling-airflow-vs-cron/README.md": {
+    "query_that_joined": "Which is NOT an advantage of using Airflow over cron?",
+    "new_dirname": "warehousing_etl_q2001"
+  },
+  "1-basics-normalized-vs-denorm/README.md": {
+    "query_that_joined": "What is an advantage of storing data in a denormalized table rather than in multiple normalized tables?",
+    "new_dirname": "warehousing_etl_q1995"
+  },
+  "2-design-concurrency-control/README.md": {
+    "query_that_joined": "What is a difference between optimistic concurrency control and pessimistic concurrency control (also known as optimistic and pessimistic locking)?",
+    "new_dirname": "warehousing_etl_q2002"
+  },
+  "2-design-atomicity/README.md": {
+    "query_that_joined": "Consider a database that tracks banking transactions where funds from one account can be transferred into another account. The database is designed to ensure that in case of an error, funds from one account are not subtracted without adding funds to the other. In other words, the transaction must ha",
+    "new_dirname": "warehousing_etl_q2003"
+  },
+  "1-basics-data-formats/README.md": {
+    "query_that_joined": "Of the following data storage formats, which is the LEAST human readable?",
+    "new_dirname": "warehousing_etl_q1996"
+  },
+  "1-warehouse-star-vs-snowflake/README.md": {
+    "query_that_joined": "What is a difference between star and snowflake schemas?",
+    "new_dirname": "warehousing_etl_q2009"
+  },
+  "2-design-microbatch-vs-batch/README.md": {
+    "query_that_joined": "What is a key difference between batch and microbatch architectures?",
+    "new_dirname": "warehousing_etl_q1998"
+  },
+  "1-warehousing-non-additive-fact/README.md": {
+    "query_that_joined": "What is the best definition of a non-additive fact?",
+    "new_dirname": "warehousing_etl_q2005"
+  },
+  "1-warehousing-aggregate-table/README.md": {
+    "query_that_joined": "What is a main purpose of an aggregate fact table?",
+    "new_dirname": "warehousing_etl_q2006"
+  },
+  "2-design-olap-cube/README.md": {
+    "query_that_joined": "Which use case is an OLAP cube designed to solve?",
+    "new_dirname": "warehousing_etl_q2395"
+  },
+  "1-basics-surrogate-vs-natural/README.md": {
+    "query_that_joined": "What is the difference between a natural key and a surrogate key?",
+    "new_dirname": "warehousing_etl_q2007"
+  },
+  "2-scheduling-cron-job/README.md": {
+    "query_that_joined": "Which response best describes the behavior of the crontab in the code snippet?",
+    "new_dirname": "warehousing_etl_q2004"
+  },
+  "2-design-slowly-changing-dimension/README.md": {
+    "query_that_joined": "Which of the following objects is designed for the historical capture of slowly changing dimensions (SCD's)?",
+    "new_dirname": "warehousing_etl_q1999"
+  },
+  "1-basics-foreign-key/README.md": {
+    "query_that_joined": "What is a foreign key? A column that references a record from another table",
+    "new_dirname": "warehousing_etl_q2008"
+  },
+  "2-scheduling-airflow/README.md": {
+    "query_that_joined": "For which use is Apache Airflow best suited?",
+    "new_dirname": "warehousing_etl_q2000"
+  },
+  "1-basics-cardinality/README.md": {
+    "query_that_joined": "Which column likely has the lowest cardinality?",
+    "new_dirname": "warehousing_etl_q2010"
+  },
+  "1-basics-primary-key/README.md": {
+    "query_that_joined": "What is the best definition of a primary key?",
+    "new_dirname": "warehousing_etl_q2011"
+  },
+  "1-basics-granularity/README.md": {
+    "query_that_joined": "Consider a database that stores order data.  An order represents a transaction where a customer purchases one or many products at a store at a specific point in time.  An order line represents each product within an order, which rolls up to order.  Based on this description, which of the following t",
+    "new_dirname": "warehousing_etl_q2012"
+  },
+  "1-basics-olap-vs-oltp/README.md": {
+    "query_that_joined": "Which of the following use cases is best suited to an OLAP system, rather than an OLTP system?",
+    "new_dirname": "warehousing_etl_q2013"
+  },
+  "features-inplace/README.md": {
+    "query_that_joined": "If `x` and `y` are lists, which of the following statements modify `x` in-place?",
+    "new_dirname": "python_q2174"
+  },
+  "std-re-character-classes/README.md": {
+    "query_that_joined": "Suppose `items` is a list of ASCII strings. Which value of `pattern` causes the following code to output all strings that do NOT start with one of the vowels `aeiou`?",
+    "new_dirname": "python_q2356"
+  },
+  "std-import-cycles/README.md": {
+    "query_that_joined": "Suppose a module `a.py` imports a module `b.py` and then defines a variable `x = 1`. \n\nIf `b.py` imports `a.py` and tries to print the value of `a.x`, what happens when we run `b.py`?",
+    "new_dirname": "python_q2307"
+  },
+  "containers-multiple-inheritance-syntax/README.md": {
+    "query_that_joined": "If `Base1` and `Base2` are classes, which of the following is valid syntax for a subclass of both `Base1` and `Base2`?",
+    "new_dirname": "python_q2292"
+  },
+  "features-boolean-multiplication/README.md": {
+    "query_that_joined": "What is the result when the boolean `True` is multiplied by a positive integer `n`?",
+    "new_dirname": "python_q2296"
+  },
+  "syntax-del-slice/README.md": {
+    "query_that_joined": "There's a list with 5 weekdays in it, \"Mon\", \"Tue\", \"Wed\", \"Thu\", and \"Fri\".\n\nWhat is the value of `weekdays` after the following code is run.",
+    "new_dirname": "python_q1642"
+  },
+  "features-zip/README.md": {
+    "query_that_joined": "Consider calling the built-in function `zip` with two arguments: a list `a` of length 2 and a list `b` of length 3.\n\nWhich of the following sequences of tuples is the output?",
+    "new_dirname": "python_q2282"
+  },
+  "std-dir/README.md": {
+    "query_that_joined": "There is a Cup class defined in the current context as follows:\n```python\n# example.py\nclass Cup:\n    coffee = False\n```\n\nUsing the `dir` function, which python expressions return `True`?",
+    "new_dirname": "python_q1637"
+  },
+  "libraries-numpy-as-strided/README.md": {
+    "query_that_joined": "Suppose `x` is a NumPy array containing `N` 32-bit floats. Which of the following computes the rolling average (also called the moving average or sliding average) of `x` for a window of length `w`?",
+    "new_dirname": "python_q2360"
+  },
+  "domain-slots/README.md": {
+    "query_that_joined": "Using Python 3 and the `bench` function below, you instantiate 1000 instances of the classes `Apple`, `Orange`, and `Banana`.\n\nRank the classes by memory consumption from least to most memory consumed.",
+    "new_dirname": "python_q1630"
+  },
+  "containers-data-descriptors/README.md": {
+    "query_that_joined": "Consider two objects `obj` and `obj2` from different classes. The statement `obj.attribute = obj2.attribute2` will \"monkey-patch\" `obj` so that accessing or calling `obj.attribute` will use the behavior of `obj2.attribute2`, but with the self parameter set to `obj`.\n\nFor which type will monkey-patch",
+    "new_dirname": "python_q2258"
+  },
+  "syntax-nested-list-comprehension/README.md": {
+    "query_that_joined": "Which of the following is a syntactically valid nested list comprehension?",
+    "new_dirname": "python_q2185"
+  },
+  "std-functional/README.md": {
+    "query_that_joined": "Calculating compound interest is a common task.\n\nFor example, starting with $30.00 and 3% interest 2 times equals $31.827:\n* $30 + ($30 * 3%) = $30.90\n* $30.90 + ($30.90 * 3%) = $31.827\n\nWhich of the following answers is NOT equivalent to the python below:",
+    "new_dirname": "python_q1638"
+  },
+  "std-classic-import-hooks/README.md": {
+    "query_that_joined": "Suppose you want to override the behavior of `import module` to log the name of the module being imported. \n\nYou write a function `my_import` that performs the logging, then delegates to a function `orig_import` to complete the import. \n\nWhich of the following installs `my_import` correctly?",
+    "new_dirname": "python_q2283"
+  },
+  "containers-slice-assignment/README.md": {
+    "query_that_joined": "If `src` and `dest` are both lists of different lengths, which of the four following functions modifies `src` in-place to contain every element of `dest`?",
+    "new_dirname": "python_q2270"
+  },
+  "domain-iterator-threes/README.md": {
+    "query_that_joined": "The following program will print new numbers forever.\n\nHow do you change it so that it will stop after 30?",
+    "new_dirname": "python_q1629"
+  },
+  "std-re-escaping/README.md": {
+    "query_that_joined": "Which value of `pattern` causes the following code to match each single backslash character `\\` in the string `my_string`?",
+    "new_dirname": "python_q2354"
+  },
+  "std-weakref/README.md": {
+    "query_that_joined": "Consider the following code where Listener instances can register to be notified by a Dispatcher when something happens. Fill in the missing line of code so that Listener instances can be garbage collected when the only reference to them is from a Dispatcher instance.",
+    "new_dirname": "python_q2290"
+  },
+  "features-hashable/README.md": {
+    "query_that_joined": "An object `obj` is considered hashable if `isinstance(obj, collections.abc.Hashable)` returns True.\n\nWhich of the four classes below have hashable instances?",
+    "new_dirname": "python_q2173"
+  },
+  "containers-generators-infinite/README.md": {
+    "query_that_joined": "In versions of Python prior to 3.7, the call to `list(a)` below runs forever. \n\nWhich of the following is a valid fix so that `my_zip` mimics the behavior of the built-in `zip` function?",
+    "new_dirname": "python_q2259"
+  },
+  "std-json-interoperability/README.md": {
+    "query_that_joined": "Which value of `obj` below causes invalid JSON (JavaScript Object Notation) to be returned when the standard library `json.dumps(obj)` is called? Valid JSON is defined by RFC 7159.",
+    "new_dirname": "python_q2287"
+  },
+  "features-processing-lambdas/README.md": {
+    "query_that_joined": "Consider sorting a large list of Car objects by a numerical `year` attribute.\n\nIn CPython, which version of the below code will execute more quickly, and why?",
+    "new_dirname": "python_q2277"
+  },
+  "containers-notimplemented/README.md": {
+    "query_that_joined": "Consider an instance `obj` of the below class `MyClass`. \n\nThe desired behavior for `obj * other` is the following: if `other` is also an instance of `MyClass`, the operation succeeds. Otherwise, if `other.__rmul__` exists then call that. Otherwise, TypeError should be raised. \n\nComplete the missing",
+    "new_dirname": "python_q2267"
+  },
+  "features-negation/README.md": {
+    "query_that_joined": "Which of the following is true for arbitrary Python objects `x` and `y`?",
+    "new_dirname": "python_q2170"
+  },
+  "features-bound-methods/README.md": {
+    "query_that_joined": "After the code below executes, which statement causes `obj.method` to be a method bound to `obj`?",
+    "new_dirname": "python_q2274"
+  },
+  "libraries-numpy-ufunc/README.md": {
+    "query_that_joined": "Which of the following is a property of NumPy's universal functions, also known as \"ufuncs\"?",
+    "new_dirname": "python_q2359"
+  },
+  "domain-debugging-optimization-level/README.md": {
+    "query_that_joined": "In CPython, which optimizations are enabled by invoking a script with `python -O script.py` (or equivalently `PYTHONOPTIMIZE=1 python script.py`)?",
+    "new_dirname": "python_q2273"
+  },
+  "domain-abstract-base/README.md": {
+    "query_that_joined": "The following code has an error:\n```\nTypeError: Can't instantiate abstract class Car with abstract method start\n```\n\nHow do you fix the error?",
+    "new_dirname": "python_q1625"
+  },
+  "syntax-else-if/README.md": {
+    "query_that_joined": "Which of the following has the correct python syntax?",
+    "new_dirname": "python_q1644"
+  },
+  "syntax-docstring/README.md": {
+    "query_that_joined": "Which of the following sets the `docstring`?",
+    "new_dirname": "python_q1643"
+  },
+  "features-membership/README.md": {
+    "query_that_joined": "For a user-defined container class, consider the following three ways that the test `x in my_container` can return True:\n\n- The container defines `__iter__` and some element of the iterable `is x` or `== x`.\n- The container defines `__contains__` and `my_container.__contains__(x)` returns True\n- The",
+    "new_dirname": "python_q2175"
+  },
+  "syntax-pass/README.md": {
+    "query_that_joined": "What is the value of `a` after this code runs?\n\n```python\na = 0\nfor i in range(10):\n    if i == 2:\n        pass\n    else:\n        a = i\n```",
+    "new_dirname": "python_q1645"
+  },
+  "features-iterable/README.md": {
+    "query_that_joined": "Which of the following conditions is strictly necessary for the loop below to function?",
+    "new_dirname": "python_q2302"
+  },
+  "features-repr/README.md": {
+    "query_that_joined": "Which of the following describes the behavior of the `repr` built-in function?",
+    "new_dirname": "python_q2171"
+  },
+  "syntax-assignment-expressions/README.md": {
+    "query_that_joined": "Assignment Expressions, informally known as \"the walrus operator\" were introduced in 2018 with the release of Python 3.8. Which of the following examples contains a syntactically valid assignment expression?",
+    "new_dirname": "python_q2294"
+  },
+  "containers-method-overloading/README.md": {
+    "query_that_joined": "Consider a custom class `MyClass`. `MyClass` defines multiple methods of one parameter that are all named `method_name` and differ in the type annotation of the parameter. \n\nFor example, it might have `def method_name(self, parameter: int)` followed by `def method_name(self, parameter: bool)`.\n\nWhat",
+    "new_dirname": "python_q2306"
+  },
+  "features-module-name/README.md": {
+    "query_that_joined": "The following `__init__.py` file is in the subdirectory `utils`.\n```python\n# utils/__init__.py\ndef name():\n    return __name__\n```\n\nWhat is printed when you run the following python?\n\n```python\n# example.py\nfrom utils import name\nprint(name())\n```",
+    "new_dirname": "python_q1635"
+  },
+  "containers-name-mangling-class/README.md": {
+    "query_that_joined": "At runtime, which of the following expressions evaluate to 1?",
+    "new_dirname": "python_q2265"
+  },
+  "syntax-nonlocal/README.md": {
+    "query_that_joined": "Complete the following Python code so that calling the function `outer` returns 1.",
+    "new_dirname": "python_q2183"
+  },
+  "std-pyc-files/README.md": {
+    "query_that_joined": "By default, when you import a `.py` file, CPython compiles that source code into a file with the `.pyc` extension.\n\nWhich of the following is true about these `pyc` files?",
+    "new_dirname": "python_q2289"
+  },
+  "std-re-anchors/README.md": {
+    "query_that_joined": "Which value of `pattern` causes the following code to match all lines containing zero characters (empty lines) in the multi-line string `my_string`?",
+    "new_dirname": "python_q2355"
+  },
+  "features-true-constant/README.md": {
+    "query_that_joined": "Which of the following describes the behavior of the constant `True` in Python?",
+    "new_dirname": "python_q2295"
+  },
+  "syntax-annotations/README.md": {
+    "query_that_joined": "You are working on a shopping cart.  How do you add type annotations to the `add_item` function?",
+    "new_dirname": "python_q1641"
+  },
+  "std-copy2/README.md": {
+    "query_that_joined": "What's the difference between `shutil.copy` and `shutil.copy2`?",
+    "new_dirname": "python_q1636"
+  },
+  "features-processing-function-calls/README.md": {
+    "query_that_joined": "Consider a large list of Car instances, where each Car has attributes including `brand`, `model`, and `year`. \n\nIn CPython, which of the following expressions is the most efficient way to create a list of tuples of `(brand, model, year)` for each car object?",
+    "new_dirname": "python_q2276"
+  },
+  "containers-mro-invariants/README.md": {
+    "query_that_joined": "In the following inheritance hierarchy, what is the method resolution order (MRO) for the class `Derived`?",
+    "new_dirname": "python_q2264"
+  },
+  "features-finally/README.md": {
+    "query_that_joined": "What happens in the following code if the user presses Ctrl-C to generate a `KeyboardInterrupt` while the try block is being executed?",
+    "new_dirname": "python_q2293"
+  },
+  "std-module-lookup/README.md": {
+    "query_that_joined": "Consider a performance critical function `slow` that calls `math.sin()` millions of times.\n\nIdea A to make the program faster is to write `from math import sin` at the top of the file and replace `math.sin` with `sin`.\n\nIdea B is to write `from math import sin` as the first line of the body of `slow",
+    "new_dirname": "python_q2288"
+  },
+  "features-iterable-not-iterator/README.md": {
+    "query_that_joined": " ```python\nobj = {i : i for i in range(100)}\n```",
+    "new_dirname": "python_q2303"
+  },
+  "std-urlopen/README.md": {
+    "query_that_joined": "You're writing a program in Python 3 to tell you when Python 4.0 is ready for download.\n\nChoose the line that completes the code below:",
+    "new_dirname": "python_q1640"
+  },
+  "syntax-identifiers/README.md": {
+    "query_that_joined": "In Python 3, which of the following are a valid sequence of assignment statements?",
+    "new_dirname": "python_q2182"
+  },
+  "domain-slots-no-dict/README.md": {
+    "query_that_joined": "Consider a class `Normal` with a single instance variable `x`, and a second class `Slots` that has an instance variable `x` and a class variable `__slots__ = ['x']`.\n\nFor each of these two classes, what happens if you create an object of that class `obj` and then execute `obj.y = 1`?",
+    "new_dirname": "python_q2169"
+  },
+  "containers-metaclass-final/README.md": {
+    "query_that_joined": "Complete the following code so that any class with `metaclass=Final` cannot be subclassed.",
+    "new_dirname": "python_q2167"
+  },
+  "syntax-string-literal-concatenation/README.md": {
+    "query_that_joined": "Which of the following is NOT a valid way to join two string literals together to form the string \"abcdef\"?",
+    "new_dirname": "python_q2184"
+  },
+  "containers-slots-var-dir/README.md": {
+    "query_that_joined": "If `obj` is an instance of a custom class which defines its attributes using `__slots__`, how do those attributes appear in the output of `dir(obj)` and `vars(obj)`?",
+    "new_dirname": "python_q2271"
+  },
+  "std-enum-duplicates/README.md": {
+    "query_that_joined": "Consider two classes `ColorA` and `ColorB` that inherit from the standard library `enum.Enum`. `ColorA` has two members with the same value such as `RED = 1; GREEN = 1;`. `ColorB` has two members with the same name such as `RED = 1; RED = 2;`.\n\nWhich of these raise an exception at class definition t",
+    "new_dirname": "python_q2285"
+  },
+  "features-closure-scoping/README.md": {
+    "query_that_joined": "Suppose you are using a `Button` class from a user interface library, where  `Button` instance has a `callback` attribute which is invoked when the user clicks the button.\n\nGiven the following code, what will be printed when `buttons[0]` is clicked?",
+    "new_dirname": "python_q2275"
+  },
+  "containers-private/README.md": {
+    "query_that_joined": "Which of the following will NOT change the user's password?",
+    "new_dirname": "python_q1624"
+  },
+  "features-comparisons/README.md": {
+    "query_that_joined": "For arbitrary Python objects `x`, `y`, `z`, which of the following is necessarily true?",
+    "new_dirname": "python_q2172"
+  },
+  "domain-counter/README.md": {
+    "query_that_joined": "What is the `most_common` value in `counter` after running the following python?",
+    "new_dirname": "python_q1626"
+  },
+  "features-processing-key-intersection/README.md": {
+    "query_that_joined": "Suppose `A` and `B` are large dictionaries, with `len(A)` much larger than `len(B)`. \n\nWhich of the following most rapidly computes the set of keys that exist in both dictionaries?",
+    "new_dirname": "python_q2304"
+  },
+  "containers-dict-items-view/README.md": {
+    "query_that_joined": "Suppose you have a dictionary `d`, and you execute `items = d.items()`. In Python 3, if you delete a key `k` and its corresponding value `v` from `d`, how does this affect `items`?",
+    "new_dirname": "python_q2305"
+  },
+  "domain-sys-path/README.md": {
+    "query_that_joined": "There is a module named `mod` which has a module named `submod`:\n```\nmod/\n    __init__.py\n    submod/\n        __init__.py\n```\n\n```python\n# mod/__init__.py\nval = 5\n```\n\n```python\n# mod/submod/__init__.py\nsubval = 11\n```\nWhat are the values of `mod.val` and `mod.submod.subval` after running the code b",
+    "new_dirname": "python_q1631"
+  },
+  "domain-inner-outer-yield/README.md": {
+    "query_that_joined": "What is generated by `outer()`?",
+    "new_dirname": "python_q1628"
+  },
+  "features-scoping-assignment/README.md": {
+    "query_that_joined": "Which of the following functions has the same behavior as `arr.append`?",
+    "new_dirname": "python_q2280"
+  },
+  "libraries-numpy-broadcasting/README.md": {
+    "query_that_joined": "Suppose `x` is a NumPy array of shape `(5, 1, 4, 1)`. Which of the following shapes can broadcast with the shape of `x`?",
+    "new_dirname": "python_q2357"
+  },
+  "std-garbage-collection/README.md": {
+    "query_that_joined": "In CPython, objects are normally freed automatically when they become unreachable. Prior to CPython 3.4, which of the following would be stored in `gc.garbage` instead of being freed?",
+    "new_dirname": "python_q2286"
+  },
+  "std-pickle-portability/README.md": {
+    "query_that_joined": "Consider a script `mymodule.py` that defines a class `MyClass`. Alice uses the standard library to pickle an instance of `MyClass` into `file.pickle`, and emails `file.pickle` to Bob. If Bob does not have `mymodule.py` on his system, what happens when Bob tries to unpickle `file.pickle`?",
+    "new_dirname": "python_q2308"
+  },
+  "features-processing-membership-test/README.md": {
+    "query_that_joined": "In CPython, which of the below functions will execute more quickly and why? The functions are exactly equal in speed because they compile to the same bytecode",
+    "new_dirname": "python_q2278"
+  },
+  "features-module-init/README.md": {
+    "query_that_joined": "The following `__init__.py` file is in the subdirectory `animals`.\n```python\n# animals/__init__.py\ndef dog():\n    return 'spot'\n\nprint('animals')\n\nif __name__ == '__main__':\n    print('snowball')\n```\n\nWhat is printed when you run the following python?\n\n```python\n# example.py\nfrom animals import dog\n",
+    "new_dirname": "python_q1634"
+  },
+  "features-enumerate/README.md": {
+    "query_that_joined": "What does enumerating the string \"python\" do?",
+    "new_dirname": "python_q1633"
+  },
+  "containers-multiple-inheritance/README.md": {
+    "query_that_joined": "How do you change the definition of `Cookie` to print:\n\n> After baking the cookie it tastes sweet, and the cookie is baked.",
+    "new_dirname": "python_q1623"
+  },
+  "libraries-numpy-einsum/README.md": {
+    "query_that_joined": "The NumPy function `einsum` can be used to perform many common linear algebra operations. Which of the following computes the outer product of NumPy arrays `X` and `Y`?",
+    "new_dirname": "python_q2361"
+  },
+  "std-re/README.md": {
+    "query_that_joined": "You're writing an program to get email addresses from a million documents.\n\nHow can you use the `re` library to speed up the following program?",
+    "new_dirname": "python_q1639"
+  },
+  "containers-metaclass-registration/README.md": {
+    "query_that_joined": "If we define an empty class `A` using the metaclass `Meta` below, and a second empty class `B` that inherits from `A`, what keys will be in the variable `registry`?",
+    "new_dirname": "python_q2168"
+  },
+  "std-enum-comparisons/README.md": {
+    "query_that_joined": "The standard library `enum` provides classes to create enumerations, a set of members (names) bound to constant values. \n\nWhich of these classes provides enumerations where a member with value zero coerces to boolean False, and two members with the same value are unequal if they come from different ",
+    "new_dirname": "python_q2284"
+  },
+  "containers-name-mangling-string/README.md": {
+    "query_that_joined": "If `obj` is an instance of `MyClass`, which of the following expressions evaluates to 1?",
+    "new_dirname": "python_q2266"
+  },
+  "containers-list-modification-inplace/README.md": {
+    "query_that_joined": "If `src` and `dest` are both lists of equal length, which of the four following functions modifies the `src` list in-place to contain every element of `dest`?",
+    "new_dirname": "python_q2291"
+  },
+  "domain-input-iter-sentinel/README.md": {
+    "query_that_joined": "Which of the following examples will repeatedly accept a line of input and terminate the loop if the input is `'quit'`, and otherwise print the input?",
+    "new_dirname": "python_q2300"
+  },
+  "containers-super/README.md": {
+    "query_that_joined": "The standard library `collections.OrderedDict` is a `dict` subclass that does not call `super()` in its `__setitem__` method. \n\nWhich of the following class definitions composes the behavior of both the below `PrintingDict` and `OrderedDict`?",
+    "new_dirname": "python_q2272"
+  },
+  "features-timsort/README.md": {
+    "query_that_joined": "Given a list of length `n`, which of the following describes the performance of the built-in sorting algorithm in CPython?",
+    "new_dirname": "python_q2281"
+  },
+  "containers-mro/README.md": {
+    "query_that_joined": "When using multiple inheritance in Python, the Method Resolution Order (MRO) determines in what order types are searched for methods.\n\nWhich of the following properties of the MRO is NOT guaranteed by the Python language?",
+    "new_dirname": "python_q2263"
+  },
+  "containers-generators-return/README.md": {
+    "query_that_joined": "Consider a generator function with a `try/except Exception/finally` construct. What happens if control flow reaches a `return 0` statement inside the try block?",
+    "new_dirname": "python_q2260"
+  },
+  "features-complex-numbers/README.md": {
+    "query_that_joined": "Python has built-in support for imaginary numbers, which are the square roots of negative numbers.\n\nWhich expression below evaluates to the square root of negative 4?",
+    "new_dirname": "python_q2358"
+  },
+  "containers-2d-list-comprehension/README.md": {
+    "query_that_joined": "You are writing a function to transpose a matrix.\n\nChoose the list comprehension that transforms the 3x3 matrix:\n```python\n[\n    [1, 2, 3], \n    [4, 5, 6], \n    [7, 8, 9]\n]\n```\n\ninto the following matrix:\n```python\n[\n    [1, 4, 7], \n    [2, 5, 8], \n    [3, 6, 9]\n]\n```",
+    "new_dirname": "python_q1621"
+  },
+  "features-global-interpreter-lock/README.md": {
+    "query_that_joined": "Which of the following is a benefit of CPython's \"global interpreter lock\" (GIL)?",
+    "new_dirname": "python_q2297"
+  },
+  "containers-getattribute/README.md": {
+    "query_that_joined": "Consider a instance `obj` of a custom Python class `MyClass` that implements only `__init__`, `__hash__`, and `__getattribute__`.\n\nWhich of the following expressions bypasses `__getattribute__`?",
+    "new_dirname": "python_q2261"
+  },
+  "features-async-await/README.md": {
+    "query_that_joined": "The following program takes 5 seconds to complete.\n\nHow can you change it to take only 1 second?",
+    "new_dirname": "python_q1632"
+  },
+  "containers-hash-collision/README.md": {
+    "query_that_joined": "Consider a custom string class that implements `__hash__`, making it usable as a dictionary key. This `__hash__` implementation only looks at the first character of the string, meaning any two strings with the same first character have the same hash code. How does this implementation affect dictiona",
+    "new_dirname": "python_q2262"
+  },
+  "containers-comparisons/README.md": {
+    "query_that_joined": "Consider a class `Base` and a second class `Derived` inheriting from `Base`. Both define the rich comparison methods `__gt__` and `__lt__`. \n\nWhich methods are called in the following code?",
+    "new_dirname": "python_q2257"
+  },
+  "containers-singleton/README.md": {
+    "query_that_joined": "Complete the following code so that for each class inheriting from `Singleton`, only a single instance of that class can be instantiated and future attempts to create new instances return the same existing instance.",
+    "new_dirname": "python_q2269"
+  },
+  "features-generator-yield-from-close/README.md": {
+    "query_that_joined": "Suppose `p` is an instance of the `parent` generator below. If `p.close()` is called before `gen` is exhausted, which of the following is called?",
+    "new_dirname": "python_q2299"
+  },
+  "containers-reflection-operations/README.md": {
+    "query_that_joined": "The following class `Vector2D` represents a vector in two dimensional space. \n\nWhich of the following sets of methods are sufficient for `Vector2D` to pass the three test cases below?",
+    "new_dirname": "python_q2268"
+  },
+  "domain-dict-apple-banana/README.md": {
+    "query_that_joined": "What is the value of `d` after the following python code is executed?",
+    "new_dirname": "python_q1627"
+  },
+  "containers-dict-iter/README.md": {
+    "query_that_joined": "You have a dictionary with some months and numbers in it.\n\n```python\nmonths = dict(January=1, February=2, March=3)\n```\n\nWhich of the following will print the month name and number as follows:\n\n```\nJanuary 1\nFebruary 2\nMarch 3\n```",
+    "new_dirname": "python_q1622"
+  },
+  "features-processing-variable-swap/README.md": {
+    "query_that_joined": "Syntax such as `x, y, z = y, z, x` can be used to swap any number of local variables in a single line. How is this implemented internally in CPython?",
+    "new_dirname": "python_q2279"
+  },
+  "features-generator-send/README.md": {
+    "query_that_joined": "`gen` raises `TypeError`",
+    "new_dirname": "python_q2298"
+  },
+  "syntax-characters/README.md": {
+    "query_that_joined": "How can you store the name of someone named Jessie?",
+    "new_dirname": "rust_q1411"
+  },
+  "std-option/README.md": {
+    "query_that_joined": "`Option` and `Result` mapping are commonly used in rust.\nWhat is the output this puzzle?",
+    "new_dirname": "rust_q1407"
+  },
+  "container-vec/README.md": {
+    "query_that_joined": "You are looking at some old rust code from when you were learning rust.\n\nNow you want to refactor all those pushes into just one line of code.\nIt should be an immutable value of the same type.",
+    "new_dirname": "rust_q1390"
+  },
+  "libraries-libc/README.md": {
+    "query_that_joined": "You want to get the hostname of the computer.  But function isn't available in rust's std library.\n\nDescribe what happens in this code that uses the rust library `libc`.",
+    "new_dirname": "rust_q1402"
+  },
+  "std-sync/README.md": {
+    "query_that_joined": "You have some data that needs to be processed multi-threaded.\nHowever when trying to save the data into a HashMap the compiler throws an error saying `hash_map` was moved.\n\nHow do you synchronize and get data out of threads?",
+    "new_dirname": "rust_q1410"
+  },
+  "std-result/README.md": {
+    "query_that_joined": "Someone on your team was writing the Markdown export feature for a todo app.  They just went on vacation, and the lead developer is not happy with the work they delivered below.  \n\nThe lead says the code \"crashes all over the place, hides the issue from the calling function, and panics unrecoverably",
+    "new_dirname": "rust_q1409"
+  },
+  "std-process/README.md": {
+    "query_that_joined": "What does the following program do? 1. Starts `echo`.\n2. Pipes `wc`'s stdout to the program's stdout.\n3. Copies `echo`'s stdout into `wc",
+    "new_dirname": "rust_q1408"
+  },
+  "container-hashmap/README.md": {
+    "query_that_joined": "You want to count the letters in a word.\nChoose the best option.",
+    "new_dirname": "rust_q1386"
+  },
+  "domain-mod/README.md": {
+    "query_that_joined": "You're writing an app to remind you to eat fruit.\n\nIt contains two files `main.rs` and `selector/fruit.rs`:\n\n```rust\n// main.rs\nuse crate::selector::select_fruit;\n\nfn main() {\n    println!(\"I should eat {}.\", select_fruit());\n}\n```\n```rust\n// selector/fruit.rs\nmod selector;\n\nfn select_fruit() -> Str",
+    "new_dirname": "rust_q1393"
+  },
+  "libraries-tokio-main/README.md": {
+    "query_that_joined": "The `tokio` library has many helpful features for asynchronous programming.\n\n* What does the `#[tokio::main]` macro do?\n* Do you need to use it to use `tokio`?",
+    "new_dirname": "rust_q1405"
+  },
+  "syntax-structs/README.md": {
+    "query_that_joined": "Your friend that runs a tool rental company needs a program to calculate customer orders.\nWhat is the grand total printed by this program?",
+    "new_dirname": "rust_q1414"
+  },
+  "features-generics/README.md": {
+    "query_that_joined": "A new rust developer is working on a construction program to calculate window sizes.\nThey are trying to learn generics but they don't understand\nwhy the `side_window` produced the following error.\n\nHow can they fix this issue in this snippet using generics?",
+    "new_dirname": "rust_q1397"
+  },
+  "syntax-slice/README.md": {
+    "query_that_joined": "There is a logging function called log that takes\na `message: &str` argument.\nYou need to use this function to print \"123\".\nWhich of the following methods work?",
+    "new_dirname": "rust_q1413"
+  },
+  "features-trait-bounds/README.md": {
+    "query_that_joined": "You're writing a function that needs to communicate with objects that\nimplement both the `Speak` and `Listen` traits.\n\nWhich of the following is NOT equivalent to the trait bounds below.",
+    "new_dirname": "rust_q1400"
+  },
+  "container-iterator/README.md": {
+    "query_that_joined": "The Iterator trait is a powerful way to work with containers.\nWhich of the following snippets sets result to the number 12.",
+    "new_dirname": "rust_q1387"
+  },
+  "syntax-integers/README.md": {
+    "query_that_joined": "How can you define an integer to hold the number meters in a kilometer?",
+    "new_dirname": "rust_q1412"
+  },
+  "features-move/README.md": {
+    "query_that_joined": "You have a program to show the best vacation spots.  It has multiple threads so eventually the API team will update the list separately from the UX team.\nHow does `move` help us write better code in this code snippet?",
+    "new_dirname": "rust_q1399"
+  },
+  "libraries-serde/README.md": {
+    "query_that_joined": "You have a digital thermometer outside with an API that produces JSON like the following:\n```json\n{\n    \"time\": \"2020-09-17T20:49+07:00\",\n    \"temperature\": 28,\n    \"unit\": \"c\"\n}\n```\nHow can you use serde to deserialize the JSON and print the temperature like this.\n```rust\nprintln!(\"It's {}°{} outsi",
+    "new_dirname": "rust_q1404"
+  },
+  "domain-tests/README.md": {
+    "query_that_joined": "You're working on a well tested project that has many tests.\nInstead of running the entire test suite you just want to run the tests you're working on.\nYou are working on the `red()` and `test_red()` functions below.\n\nHow do you run only the `test_red` test?",
+    "new_dirname": "rust_q1395"
+  },
+  "container-mut-loop/README.md": {
+    "query_that_joined": "You're writing a storefront program, and after the order has been\ncompleted you want to mark all the items as complete.\nThe items are a `&mut Vec<Item>` but the code has an error.\n\nHow can you modify an item in a `Vec` inside a loop?",
+    "new_dirname": "rust_q1388"
+  },
+  "features-borrowing/README.md": {
+    "query_that_joined": "You're writing a grocery list app.  Why does the following code fail to compile?",
+    "new_dirname": "rust_q1396"
+  },
+  "domain-box/README.md": {
+    "query_that_joined": "You want to store the boss of every employee in a company using a strongly typed `enum`.\nWhich code snippet works?",
+    "new_dirname": "rust_q1391"
+  },
+  "domain-cargo/README.md": {
+    "query_that_joined": "You want to use the `rand_core` library in your project.\nHow do you use `cargo` to set it up?",
+    "new_dirname": "rust_q1392"
+  },
+  "features-lifetimes/README.md": {
+    "query_that_joined": "You're writing a function that returns the first word of a sentence.\nBut the compiler returns an error.\nSome lifetimes can be elided, and others must be specified.\n\nWhat lifetimes need to be specified in the function below?",
+    "new_dirname": "rust_q1398"
+  },
+  "std-format/README.md": {
+    "query_that_joined": "You have a program with the following values defined:\n```rust\n    let apple = \"apple\";\n    let orange = \"orange\";\n    let strawberry = \"strawberry\";\n```\n\nWhich formatting arguments print this to the console?\n```\napple orange strawberry\n```",
+    "new_dirname": "rust_q1406"
+  },
+  "domain-string/README.md": {
+    "query_that_joined": "You're writing a program that both\ngreets and shows the schedule for a person.\n\nHow can you pass a string to these functions?",
+    "new_dirname": "rust_q1394"
+  },
+  "libraries-futures/README.md": {
+    "query_that_joined": "You're trying to use futures to asynchronously calculate some value.\nBut the following code has an error (see below).\n\nWhat needs to be done to make this code work?",
+    "new_dirname": "rust_q1401"
+  },
+  "syntax-tuple/README.md": {
+    "query_that_joined": "You want to print the status of a request in the following format:\n```\nsuccess: true, errors: 0, message: success\n```\nWhich of the following is NOT valid Rust?",
+    "new_dirname": "rust_q1415"
+  },
+  "libraries-rand/README.md": {
+    "query_that_joined": "The `rand` crate is one of the most popular crates on crates.io.\n\nWhat is `x` and what is `y` in the code snippet below?",
+    "new_dirname": "rust_q1403"
+  },
+  "container-string/README.md": {
+    "query_that_joined": "You are writing some language analysis program.\nHow do you loop through all the letters in a string?",
+    "new_dirname": "rust_q1389"
+  },
+  "libraries-junit/README.md": {
+    "query_that_joined": "Writing tests are an important part of Java development in production.\n\nChoose which option uses JUnit the best to test the `Example` class below.",
+    "new_dirname": "java_q1437"
+  },
+  "features-constructors/README.md": {
+    "query_that_joined": "The following `Parent` class initializes a member variable with a constructor. Which `Child` class correctly extends `Parent`?",
+    "new_dirname": "java_q1590"
+  },
+  "std-serialization/README.md": {
+    "query_that_joined": "Writing an object instance to a byte stream is called \"serialization\". How do you enable serialization for the following `FullName` class?",
+    "new_dirname": "java_q1596"
+  },
+  "containers-override-equals-hashcode/README.md": {
+    "query_that_joined": "The following program includes an implementation of 2D coordinates.  When this program is executed, what is the size of `coords`, and why?",
+    "new_dirname": "java_q1583"
+  },
+  "domain-wait-notify/README.md": {
+    "query_that_joined": "You're on a team writing a program that downloads a file while the rest of the program continues.\n`wait()` and `notify()` are concurrency tools in Java.\nFor now the `Downloader` won't actually download while your team gets the concurrency bugs get worked out.\n\nFour different team members submit thei",
+    "new_dirname": "java_q1440"
+  },
+  "libraries-sql/README.md": {
+    "query_that_joined": "You are working on an online video game.\nThere is a central MySQL database that stores information like \nwhich items a player owns, and how much money they have.\nYou need to write a server that accesses this database to talk to the game.\n\nWhich Java library will best help you access and modify data ",
+    "new_dirname": "java_q1445"
+  },
+  "libraries-gson/README.md": {
+    "query_that_joined": "You're writing a food tracking app. \n\nThe API you are using fills a string named `jsonOriginal` with the following json:\n```json\n{\n  \"name\": \"Potato Chips\",\n  \"calories\": 120,\n  \"price\": \"3.29\",\n  \"price_per_unit\": \"3.29\",\n  \"weight_oz\": \"6.25\"\n}\n```\n \nYou want to use the Gson json serialization lib",
+    "new_dirname": "java_q1426"
+  },
+  "libraries-async/README.md": {
+    "query_that_joined": "You are writing an Android app that needs to access multiple APIs at the same time during startup.\nIt needs to access a settings API to figure out which features to turn on or off.\nIt needs to log the user in if they have a valid token.\nThe app needs to get data for the main page.\nAnd it needs to us",
+    "new_dirname": "java_q1444"
+  },
+  "std-file-watcher/README.md": {
+    "query_that_joined": "You want to make a program that watches a folder.\nWhile it is watching, if something in the folder changes you do something.\nAnytime a file is created, edited, or deleted you want to update your program's state.\nFor now though, we'll just print to the console.\n\nHow do you use the standard Java libra",
+    "new_dirname": "java_q1425"
+  },
+  "domain-app-deployment/README.md": {
+    "query_that_joined": "In addition to JAR files, which offer a lot of flexibility for deployment, applications may also be packaged as EAR, WAR, and APK files. Match the archive file type to the appropriate deployment environment.",
+    "new_dirname": "java_q1585"
+  },
+  "features-garbage-collection/README.md": {
+    "query_that_joined": "Regarding Garbage Collection in Java, which of the following statements are true?",
+    "new_dirname": "java_q1591"
+  },
+  "syntax-varargs/README.md": {
+    "query_that_joined": "Choose the method signature that correctly uses *Varargs*.",
+    "new_dirname": "java_q1604"
+  },
+  "std-avoid-overflow/README.md": {
+    "query_that_joined": "When doing arithmetic it is important to protect against any possible overflow, especially when the data comes from a user or third-party API.\n\nWhich of the following definitions of `addUserInput()` will throw an ArithmeticException when called by the following line of code:",
+    "new_dirname": "java_q1594"
+  },
+  "std-stream/README.md": {
+    "query_that_joined": "Java Streams are a way that Java supports functional-style operations on streams of elements.\n\nWhich of the following uses the Java stream API to produce the result `12`?\n\nComplete the missing code below.",
+    "new_dirname": "java_q1423"
+  },
+  "std-file-io/README.md": {
+    "query_that_joined": "The class, `java.io.BufferedReader`, is used to:",
+    "new_dirname": "java_q1595"
+  },
+  "containers-hashset/README.md": {
+    "query_that_joined": "You're writing a children's app to teach numbers.  Every time they get a number correct you add it to `numbers`.\n\nWhat does the following program print out?",
+    "new_dirname": "java_q1434"
+  },
+  "features-override/README.md": {
+    "query_that_joined": "A project you are working on has a `Reader` interface with a `read` function like this:\n```java\ninterface Reader {\n    String read();\n}\n```\n\nSomeone implemented the `StringReader` version of a `Reader` like this:\n\n```java\nclass StringReader implements Reader {\n    String source;\n\n    StringReader(St",
+    "new_dirname": "java_q1428"
+  },
+  "features-reference/README.md": {
+    "query_that_joined": "You are helping a clothing store write an app.  They sell sunglasses, hats, and shirts.\n\nThey have a function that discounts the price of an item.\nThey want you to explain why their Java code is behaving the way it is.\n\nWhat does the following code print to the screen?",
+    "new_dirname": "java_q1427"
+  },
+  "domain-jar-entry-point/README.md": {
+    "query_that_joined": "Java applications are often packaged and delivered as *JAR* files. For the following command, how does Java know where to begin execution?",
+    "new_dirname": "java_q1586"
+  },
+  "syntax-generics-multiple/README.md": {
+    "query_that_joined": "You are implementing a robust work queue. It should implement the `Queue` interface, but only allow queued items that are *BOTH* `Runnable` *AND* `Serializable`. Which of the following interface definitions is correct?",
+    "new_dirname": "java_q1600"
+  },
+  "syntax-autoboxing/README.md": {
+    "query_that_joined": "In most situations, Java will \"autobox\" and \"unbox\" between primitive values and their corresponding object wrapper classes.  \n\nChoose the line of code that, if placed within the `main` method, would cause a compile error due to Java's inability to perform an implicit type conversion.",
+    "new_dirname": "java_q1599"
+  },
+  "std-time/README.md": {
+    "query_that_joined": "Java has a standard API for fluently programming dates and time.\n\nIn the following example, what is printed as a result?",
+    "new_dirname": "java_q1421"
+  },
+  "syntax-inheritance/README.md": {
+    "query_that_joined": "You are writing a `Transmitter` class.  The `Transmitter` class needs to have the functionality of both a `Reader` and a `Writer`.\n\nWhat errors are in this program?",
+    "new_dirname": "java_q1419"
+  },
+  "containers-array/README.md": {
+    "query_that_joined": "You are writing a weather app. You want to make an array of the seasons in a year.\n\nHow do you initialize an array?\n\nComplete the missing line in the code below to initialize the `seasons` array.",
+    "new_dirname": "java_q1436"
+  },
+  "libraries-guava/README.md": {
+    "query_that_joined": "Google's Guava libraries have many handy utilities.\nOne of them is `com.google.common.base.Objects.ToStringHelper`\n\nWhat does this class help you do?",
+    "new_dirname": "java_q1441"
+  },
+  "feature-try-with-resources/README.md": {
+    "query_that_joined": "What is the output of the following program? Inside Try Block.\nUsing resource.\nClosing...\nInside Finally Block.",
+    "new_dirname": "java_q1589"
+  },
+  "containers-hashmap/README.md": {
+    "query_that_joined": "You're writing an inventory app for a local grocery store.  You want to use a HashMap to count the number of fruits available.\n\nWhat does the following program print on the screen?",
+    "new_dirname": "java_q1435"
+  },
+  "features-overload/README.md": {
+    "query_that_joined": "Java allows you to \"overload\" methods. The following signatures are attempts to overload `myMethod`. Which of the following method signatures is *NOT* a valid way to overload `myMethod`?",
+    "new_dirname": "java_q1592"
+  },
+  "std-thread/README.md": {
+    "query_that_joined": "You are writing a weather app.\nThe API you are using only lets you lookup one city's weather at a time.\n\nBefore calling the actual API you build out a temporary model below.\n\nWhich explanation best fits this program?",
+    "new_dirname": "java_q1422"
+  },
+  "syntax-interface-capabilities/README.md": {
+    "query_that_joined": "Interfaces can define all of the following, except one. Which type of definition is *NOT* supported by Interfaces.",
+    "new_dirname": "java_q1601"
+  },
+  "features-lambda/README.md": {
+    "query_that_joined": "You are creating an information page with \"ok\" and \"cancel\" buttons on it.\n\nNow use Java lambda expressions to create an `InformationPage` object instance.\nThen call `simulateActivity()` so that it prints the following to the console.\n```\nok\ncancel\n```",
+    "new_dirname": "java_q1429"
+  },
+  "containers-ordered-sets/README.md": {
+    "query_that_joined": "What is the output of the following code snippet?",
+    "new_dirname": "java_q1582"
+  },
+  "std-servlet-threads/README.md": {
+    "query_that_joined": "Web Servers are multithreaded in order to handle many simultaneous requests. Does this mean that Servlets must be written to be thread-safe? Why?",
+    "new_dirname": "java_q1597"
+  },
+  "containers-list-impls/README.md": {
+    "query_that_joined": "Like all collection implementations, different implementations of `List` have very different performance profiles depending on how the list is used.\n\nIn the program below the lists have many calls to `add()` but no calls go `get()`.  For simplicity, time is used to messure performance.  So shorter t",
+    "new_dirname": "java_q1581"
+  },
+  "containers-util-arrays/README.md": {
+    "query_that_joined": "You are writing an app that lists several shapes.  You want them to be in alphabetical order.\nThe `Arrays` utility class can help.\n\nComplete the missing code below to sort the shapes array.",
+    "new_dirname": "java_q1433"
+  },
+  "syntax-protected-access/README.md": {
+    "query_that_joined": "When a class member variable is specified to be `protected`, what other classes have direct access to that member variable?",
+    "new_dirname": "java_q1602"
+  },
+  "syntax-classes/README.md": {
+    "query_that_joined": "You are writing a program that simulates tree growth, so you want an abstract Tree class for other tree types to inherit.\n\nWhat errors are there in this program?",
+    "new_dirname": "java_q1420"
+  },
+  "syntax-polymorphism/README.md": {
+    "query_that_joined": "You're writing a shopping cart for a website that sells computers.\n\nWhat is printed on the screen when the following code executes?",
+    "new_dirname": "java_q1417"
+  },
+  "features-interface/README.md": {
+    "query_that_joined": "Java's type system is a powerful tool.  \nIn this puzzle the `Mallard`, `Swan`, and `DuckNoiseGenerator` all have a `public void quack()` function.\n\nThis example executes which `quack()` functions?",
+    "new_dirname": "java_q1430"
+  },
+  "std-regex/README.md": {
+    "query_that_joined": "You are working at a company that wants to analyze different languages.\nAs an example, they want you to make a program that looks for how many times \"dolor\" is used in the latin \"lorem ipsum\"\ntext, and provide a little context around each word.\n\nThe regular expression pattern: `.{0,9}(dolor).{0,9}` ",
+    "new_dirname": "java_q1424"
+  },
+  "domain-try-catch-finally/README.md": {
+    "query_that_joined": "What is the output of the following program? Inside try.\nHandling: Exception 1.\nInside finally.\nInside second try.\nInside second finally.",
+    "new_dirname": "java_q1587"
+  },
+  "syntax-modifiers/README.md": {
+    "query_that_joined": "A coworker is writing a class which keeps track of the sound different cars make.\n\nWhat are the errors in this code?",
+    "new_dirname": "java_q1418"
+  },
+  "containers-wrappers/README.md": {
+    "query_that_joined": "You are writing a customer information app. The business uses integers for customer ids.  You decided to use a `HashMap` to hold a list of customers by id.\n\nHow do you create a `HashMap`?\n\nComplete the missing line in the code below to initialize a `HashMap`.",
+    "new_dirname": "java_q1432"
+  },
+  "std-threads-datastructures/README.md": {
+    "query_that_joined": "Which of the following data structure implementations is thread-safe?",
+    "new_dirname": "java_q1598"
+  },
+  "domain-blocking-queue/README.md": {
+    "query_that_joined": "You are making a photo app that downloads the latest photo from a server.\nThe app needs to download multiple photos asynchronously, at the same time, to optimize bandwidth.\n\nIt uses a `BlockingQueue`.  The `Download` class keeps track of the URL to download.\nTo figure out when to stop taking items f",
+    "new_dirname": "java_q1439"
+  },
+  "syntax-switch/README.md": {
+    "query_that_joined": "What is the output of the following program? A square is also a rectangle, and a parallelogram.",
+    "new_dirname": "java_q1603"
+  },
+  "containers-unmodifiable/README.md": {
+    "query_that_joined": "What is the output of the following program? ```\nnormalList: [Alice, Bob]\nnormalList after name change: [Alice, Charlie]\nCaught Exception!\n```",
+    "new_dirname": "java_q1584"
+  },
+  "features-enum/README.md": {
+    "query_that_joined": "You are writing a game where people choose to be on one of three teams: rock, paper, or scissors.\nEach team has an advantage over the others.\nSo you write the game logic (below) using an `enum`.\n\nNow you want to list all the possibilities to make sure the logic works.\n\nWhich code enumerates over Tea",
+    "new_dirname": "java_q1431"
+  },
+  "domain-compile/README.md": {
+    "query_that_joined": "Sometimes an IDE isn't configured correctly, or you need to compile and run Java on a system where you don't have a GUI, and only a terminal.\n\nYou have a java project with one file `src\\Example.java`\n```java\npublic class Example {\n    public static void main(String[] args) {\n        System.out.print",
+    "new_dirname": "java_q1438"
+  },
+  "syntax-strings/README.md": {
+    "query_that_joined": "You're writing a program to help people choose healthy snacks.\n\nWhat does this program do?",
+    "new_dirname": "java_q1416"
+  },
+  "domain-jvm/README.md": {
+    "query_that_joined": "Many popular programming languages are written on the Java Virtual Machine.\n\nWhich one of the following is NOT a JVM language?",
+    "new_dirname": "java_q1443"
+  },
+  "containers-array-vs-list/README.md": {
+    "query_that_joined": "The following answers are about the differences between Arrays and Lists. Which answer is *NOT* true?",
+    "new_dirname": "java_q1580"
+  },
+  "1-std-string-replace-iterators/README.md": {
+    "query_that_joined": "The following c++ prints this:\n```\n---Triplebyte------\n```\n\nBut the programmer wanted it to print this:\n```\n---Triplebyte---\n```\n\nWhich use of iterators will fix it?",
+    "new_dirname": "cpp_q1868"
+  },
+  "1-mem-arrow-or-dot/README.md": {
+    "query_that_joined": "You have two classes `Pizza` and `Party`.\n\nHow do you pass a cooked `Pizza` into the `bring` function of `Party`?",
+    "new_dirname": "cpp_q1869"
+  },
+  "1-composite-struct/README.md": {
+    "query_that_joined": "What errors are in the c++ code below?",
+    "new_dirname": "cpp_q1863"
+  },
+  "2-std-async/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1864,
+    "new_dirname": "cpp_q1864"
+  },
+  "1-oop-polymorphism/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1877,
+    "new_dirname": "cpp_q1877"
+  },
+  "2-coding-transform/README.md": {
+    "query_that_joined": "Using a vector of `numbers`: `1.1f, 2.4f, 7.5f`,\nwhat is the contents of `numbers` after calling `example(numbers, 0.2f)`?",
+    "new_dirname": "cpp_q1883"
+  },
+  "1-mem-copy-by-value/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1870,
+    "new_dirname": "cpp_q1870"
+  },
+  "1-oop-templates/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1878,
+    "new_dirname": "cpp_q1878"
+  },
+  "2-coding-map/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1880,
+    "new_dirname": "cpp_q1880"
+  },
+  "1-composite-string-literal/README.md": {
+    "query_that_joined": "What is the integer value of `name[10]` in the string below?",
+    "new_dirname": "cpp_q1862"
+  },
+  "1-oop-multiple-inheritance/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1876,
+    "new_dirname": "cpp_q1876"
+  },
+  "1-composite-array/README.md": {
+    "query_that_joined": "Choose the line that initializes `array` below.",
+    "new_dirname": "cpp_q1859"
+  },
+  "1-coding-nullptr/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1881,
+    "new_dirname": "cpp_q1881"
+  },
+  "1-std-cout-operator/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1866,
+    "new_dirname": "cpp_q1866"
+  },
+  "2-std-cast/README.md": {
+    "query_that_joined": "You have a vector of shared pointers to a base `Animal` class.\nYou want to check the type of the pointer using a cast.\n\nChoose the snippet that completes the C++ code below.",
+    "new_dirname": "cpp_q1865"
+  },
+  "1-oop-abstract-base-class/README.md": {
+    "query_that_joined": "How do you make `Shape` an abstract base class?",
+    "new_dirname": "cpp_q1874"
+  },
+  "1-coding-sizeof/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1882,
+    "new_dirname": "cpp_q1882"
+  },
+  "3-mem-leaks/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1871,
+    "new_dirname": "cpp_q1871"
+  },
+  "1-composite-private-constructor/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1861,
+    "new_dirname": "cpp_q1861"
+  },
+  "1-mem-stack-heap/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1873,
+    "new_dirname": "cpp_q1873"
+  },
+  "1-oop-friend/README.md": {
+    "query_that_joined": "You're writing an `operator<<` for `Inventory`.\nBut the function doesn't have access to the private variable `items`.\n\nHow do you fix it?",
+    "new_dirname": "cpp_q1875"
+  },
+  "1-composite-enum/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 1860,
+    "new_dirname": "cpp_q1860"
+  },
+  "4-features-event-unsubscribe/README.md": {
+    "query_that_joined": "Your colleague wrote the following program.\nThey were expecting only the Green event to be executed, but instead both Green and Blue are executed:\n```\nonClick: Green\nonClick: Blue\n```\n\nWhat is wrong?",
+    "new_dirname": "csharp_q1900"
+  },
+  "4-features-linq-translation/README.md": {
+    "query_that_joined": "The following is from an app that will schedule ringing a school's bell every weekday at 7 AM, 11 AM, and 4 PM.\n\nWhat is the equivalent definition of `alarms` using Linq method syntax?",
+    "new_dirname": "csharp_q1901"
+  },
+  "2-composite-array/README.md": {
+    "query_that_joined": "What are the values of `list_array` and `array` at the end of the function `Run()`?",
+    "new_dirname": "csharp_q1889"
+  },
+  "1-basics-using-block/README.md": {
+    "query_that_joined": "Why should `file` be in the `using` block below?",
+    "new_dirname": "csharp_q1887"
+  },
+  "1-basics-foreach/README.md": {
+    "query_that_joined": "The `LogDays` function should write every string in `days` to the console.\n\nComplete the code below.",
+    "new_dirname": "csharp_q1885"
+  },
+  "1-basics-class/README.md": {
+    "query_that_joined": "What change will allow the following program to compile?",
+    "new_dirname": "csharp_q1884"
+  },
+  "2-composite-ienumerator/README.md": {
+    "query_that_joined": "What's the difference between `IEnumerable` and `IEnumerator`?",
+    "new_dirname": "csharp_q1891"
+  },
+  "6-coding-grocery/README.md": {
+    "query_that_joined": "You are maintaining a point-of-sale program with the `Item` and `Register` classes below:\n\n```csharp\npublic struct Item\n{\n    public string Name;\n    public decimal Price;\n}\npublic class Register\n{\n    public decimal Total { get; private set; }\n    private readonly Dictionary<Item, decimal> Items = ",
+    "new_dirname": "csharp_q1911"
+  },
+  "1-basics-new/README.md": {
+    "query_that_joined": "The following C# code has an error:\n```\nerror CS0118: 'Example' is a namespace but is used like a variable\n```\n\nHow can you change the code to make it work?",
+    "new_dirname": "csharp_q1886"
+  },
+  "3-std-task/README.md": {
+    "query_that_joined": "What happens when you run the `Example` function?",
+    "new_dirname": "csharp_q1898"
+  },
+  "3-std-json/README.md": {
+    "query_that_joined": "You have the following `Data` class:\n```csharp\nclass Data {\n    public int A;\n    public int B { get; set; }\n    public int C { get; private set; }\n}\n```\n\nThe JSON you are deserializing is this:\n```json\n{\"a\": 3, \"b\": 11, \"C\": 55}\n```\n\nWhat are the values of A, B, and C when the JSON is deserialized ",
+    "new_dirname": "csharp_q1896"
+  },
+  "2-composite-value-reference/README.md": {
+    "query_that_joined": "Why does the following program print the result `8`?",
+    "new_dirname": "csharp_q1893"
+  },
+  "5-oop-abstract-implementation/README.md": {
+    "query_that_joined": "The `ExampleLogger` class below must implement `Log`.\n\nHow can you make implementing `Log` optional?",
+    "new_dirname": "csharp_q1904"
+  },
+  "6-coding-disposable/README.md": {
+    "query_that_joined": "The `Texture` and `Context` classes below implement `IDisposable`.\n\nIn what order are the `Dispose` methods called on the classes when used in the following snippet?\n```csharp\nint x = 0;\nusing (var context = new Context())\n{\n    for (var i = 0; i < 3; i++)\n    {\n        using (var t = new Texture(i,",
+    "new_dirname": "csharp_q1909"
+  },
+  "2-composite-struct-accessibility/README.md": {
+    "query_that_joined": "You are working on a `struct` named `Account` that has been designed to prevent a negative balance.\n\nWithout reflection, is it still possible to set `_Balance` to a negative number?",
+    "new_dirname": "csharp_q1892"
+  },
+  "6-coding-extension/README.md": {
+    "query_that_joined": "Given the following classes, what happens if you try to use `Colors` like this:\n```csharp\nvar example = new Colors();\nexample.Red();\nexample.Green();\nexample.Blue();\n```",
+    "new_dirname": "csharp_q1910"
+  },
+  "4-features-null-coalescing/README.md": {
+    "query_that_joined": "What is the value of `day`?",
+    "new_dirname": "csharp_q1902"
+  },
+  "1-basics-var/README.md": {
+    "query_that_joined": "Using the C# code snippet below,\nwhat is the type of `v` in the following statement:\n```csharp\nvar v = Value(88.0f);\n```",
+    "new_dirname": "csharp_q1888"
+  },
+  "4-features-async-await/README.md": {
+    "query_that_joined": "When `Main()` is run what is printed and when?",
+    "new_dirname": "csharp_q1899"
+  },
+  "6-coding-sequence/README.md": {
+    "query_that_joined": "You have a string of 101 digits.\n```\n62831853071795864769252867665590057683943387987502116419498891846156328125724179972560696506842341359\n```\nOf all the digits from '5' to '9', '7' appears the least number of times.  '7' appears only 10 times.\n\nWhich Linq query below finds 7 using the above logic?",
+    "new_dirname": "csharp_q1912"
+  },
+  "3-std-readall/README.md": {
+    "query_that_joined": "SQLite files have a \"magic number\" at the beginning that is always the same.\nYou're debugging a program with the `IsSQLite3` function below.\n\nSometimes the program exits with an error: \"Out of memory.\"\n\nHow do you fix the problem?",
+    "new_dirname": "csharp_q1897"
+  },
+  "3-std-exceptions/README.md": {
+    "query_that_joined": "What is printed when the `Example` function is called with `1` as an argument?",
+    "new_dirname": "csharp_q1895"
+  },
+  "3-std-casting/README.md": {
+    "query_that_joined": "The `LogStrings` function should only write to the console if `v` is a string.\n\nThis program compiles fine, but crashes at runtime.\n\nHow can you fix it?",
+    "new_dirname": "csharp_q1894"
+  },
+  "5-oop-encapsulation/README.md": {
+    "query_that_joined": "You are writing the checkbook ledger app below.\n\nThere are private getters to enforce encapsulation, \nbut users are complaining that the balance does NOT match the entry amounts.\n\nHow is this possible?",
+    "new_dirname": "csharp_q1905"
+  },
+  "6-coding-zero-member/README.md": {
+    "query_that_joined": "Using this buggy `Example` class...\n\n```csharp\npublic class Example\n{\n    public int Counter;\n    public int Count => Counter;\n    public Example(int count)\n    {\n        Counter = Count + 1;\n    }\n}\n```\n\nWhat is the value of `result`?\n\n```csharp\nint result = 0;\nExample example;\nfor (var i = 3; i < ",
+    "new_dirname": "csharp_q1913"
+  },
+  "5-oop-virtual/README.md": {
+    "query_that_joined": "The following program prints \"Bright\", but you want it to print \"Bright Blue\".\n\nWhat can you change so that `light.Display()` returns \"Bright Blue\"?",
+    "new_dirname": "csharp_q1908"
+  },
+  "5-oop-generics/README.md": {
+    "query_that_joined": "You are making a generic type for a location that has a name, longitude, and latitude.\nYou want to allow things like the name or location to be a string, float, decimal, or other type like a class.\n\nWhich generic implementation of `Geo` fits this application best?",
+    "new_dirname": "csharp_q1907"
+  },
+  "2-composite-enumerator-reset/README.md": {
+    "query_that_joined": "What does the following code write to the console and why?",
+    "new_dirname": "csharp_q1890"
+  },
+  "4-features-property-setter/README.md": {
+    "query_that_joined": "Which of the following will only allow `X` to be a value over 3?",
+    "new_dirname": "csharp_q1903"
+  },
+  "containers-array-queue/README.md": {
+    "query_that_joined": "You are implementing a First In First Out (FIFO) Queue. Choose the Queue implementation such that the output of the code snippet below is `true`.",
+    "new_dirname": "javascript_q1605"
+  },
+  "domain-serial-promises/README.md": {
+    "query_that_joined": "It is often important to control the number of asynchronous tasks happening at any one time. The simplest form of this is to process only one asynchronous task at a time.  The program below contains a function named `runOneAtATime()`.  This function should be called for every element in the `input` ",
+    "new_dirname": "javascript_q1612"
+  },
+  "containers-ellipses/README.md": {
+    "query_that_joined": "What is the output of the following program? ```\nlizard\n```",
+    "new_dirname": "javascript_q1606"
+  },
+  "containers-sparse-array-processing/README.md": {
+    "query_that_joined": "Which answer adds the values of the given sparse array such that `sum` equals 10?",
+    "new_dirname": "javascript_q1609"
+  },
+  "features-proxy/README.md": {
+    "query_that_joined": "You want to log all updates to any current or future properties of the `obj` object. Which function below returns an object that can be used in place of `obj` but will log all updates made to any current or future properties?",
+    "new_dirname": "javascript_q1617"
+  },
+  "domain-callback-to-promise/README.md": {
+    "query_that_joined": "Two popular ways of wrapping asynchronous operations in Javascript are Promises and Node-style callbacks. Frequently, one must integrate APIs that are using mismatched approaches, particularly when writing code for Node.js.  It can be helpful to create a higher-order function that converts arbitrary",
+    "new_dirname": "javascript_q1610"
+  },
+  "containers-set-equality/README.md": {
+    "query_that_joined": "What is the output of this program? ```\nSize: 5\n```",
+    "new_dirname": "javascript_q1607"
+  },
+  "state-error-boundary/README.md": {
+    "query_that_joined": "The code below uses an \"Error Boundary\" pattern to prevent uncaught errors in `ChildComponent` from crashing the whole application.  Which implementation of `ErrorBoundary` will be most effective in accomplishing this goal?",
+    "new_dirname": "react_q1938"
+  },
+  "core-component-lifecycle/README.md": {
+    "query_that_joined": "You are implementing a class component that displays a single random dog picture.  The `fetchDog()` method will fetch a URL to a random picture of a dog.  This component needs some more code to work.  What code could be added to achieve the desired result?",
+    "new_dirname": "react_q1920"
+  },
+  "core-class-function-binding/README.md": {
+    "query_that_joined": "Your coworker is having trouble implementing a counter with React.  The initial render is fine, but when the `Add One` button is clicked the following error is produced:\n\n```\nTypeError: Cannot read property 'setState' of undefined\n```\n\nWhy is this error happening?",
+    "new_dirname": "react_q1919"
+  },
+  "hooks-custom/README.md": {
+    "query_that_joined": "Sometimes it is necessary to track the history of some state. In the simplified example below, a counter displays the history of the `count` value.  It uses a custom hook, `useHistory()`, to maintain that history.  Which implementation of `useHistory()` provides a correct history to `ViewHistoryCoun",
+    "new_dirname": "react_q1925"
+  },
+  "native-panresponder-lifecycle/README.md": {
+    "query_that_joined": "You are implementing a file manager in React Native.  The user should be able to use a drag-and-drop gesture to move a file.  In which of the following PanResponder lifecycle methods might you execute the movement of a file?",
+    "new_dirname": "react_q1933"
+  },
+  "hooks-effect-order/README.md": {
+    "query_that_joined": "What is logged by the following component?",
+    "new_dirname": "react_q1926"
+  },
+  "composition-without-jsx/README.md": {
+    "query_that_joined": "In situations where it is impractical to run a toolchain to compile JSX, it is still possible to write code for React.  Choose the answer whose code is equivalent to the snippet below AND does NOT use a deprecated API:",
+    "new_dirname": "react_q1918"
+  },
+  "state-reducers/README.md": {
+    "query_that_joined": "The Redux framework and React's `useReducer` hook both require you to define a type of function called a \"Reducer\".  Below is an implementation of a Controlled text field using `useReducer` to manage its state.  You want to add an \"Undo\" feature so that users can undo their input.  Pick the implemen",
+    "new_dirname": "react_q1941"
+  },
+  "core-toolchains/README.md": {
+    "query_that_joined": "",
+    "from_id_in_file": 2362,
+    "new_dirname": "react_q2362"
+  },
+  "native-js-engine/README.md": {
+    "query_that_joined": "By default, React Native uses which Javascript engines?",
+    "new_dirname": "react_q1930"
+  },
+  "state-context/README.md": {
+    "query_that_joined": "React has two Context APIs. One is the \"Legacy\" Context API. It was only ever an experimental feature and will be removed in a future version of React.  React also has a newer, fully-supported Context API.  The following code uses the newer, fully-supported Context API.  \n\nBelow is an application th",
+    "new_dirname": "react_q1937"
+  },
+  "core-setup/README.md": {
+    "query_that_joined": "Use the `ReactDOM.render()` method.\n\nFile: my-app/index.js\n```javascript\nimport React from 'react'\ni",
+    "new_dirname": "react_q1924"
+  },
+  "state-local/README.md": {
+    "query_that_joined": "You are implementing a simple component that toggles between displaying \"On!\" and \"Off\" states.  What code could be added to setup local state handling in this component?",
+    "new_dirname": "react_q1939"
+  },
+  "native-layout-flexbox/README.md": {
+    "query_that_joined": "This React Native component will use Flexbox to display the flag of Madagascar.  Choose the correct styles to complete this component.\n\n",
+    "new_dirname": "react_q1931"
+  },
+  "native-animation-values/README.md": {
+    "query_that_joined": "You are creating an animated bar chart component for React Native.  So far it just has one bar that should appear to grow from the bottom of the screen.  It does this, but you notice that the animation restarts every time that its parent component re-renders?  How can you fix it?",
+    "new_dirname": "react_q1928"
+  },
+  "state-reducer-rerender/README.md": {
+    "query_that_joined": "The following `HelloWorld` component should display \"Hello\" and then update to \"Hello World!\"  However, it only ever displays \"Hello\".  Choose the implementation of `helloReducer()` that fixes the problem without producing any warnings or errors.",
+    "new_dirname": "react_q1940"
+  },
+  "performance-rerendering/README.md": {
+    "query_that_joined": "It is often necessary to avoid unnecessary re-rendering of components to improve performance. In this simplified example, a `Counter` has two buttons that should NOT re-render after `Counter` has mounted. You are using `React.memo()` to stop the buttons from re-rendering when there are NO changes to",
+    "new_dirname": "react_q1935"
+  },
+  "performance-ssr/README.md": {
+    "query_that_joined": "You are building a messaging app with React.  To shorten perceived loading time, you are implementing Server-Side Rendering for your React app.  What are the crucial calls necessary on the server and client that are necessary to achieve this?",
+    "new_dirname": "react_q1936"
+  },
+  "core-portals/README.md": {
+    "query_that_joined": "In React, what is a portal?",
+    "new_dirname": "react_q1923"
+  },
+  "3-performance-file-format-pushdown/README.md": {
+    "query_that_joined": "Which file format enables the use of predicate pushdown filtering as well as column pruning at the storage layer?",
+    "new_dirname": "spark_q1974"
+  },
+  "2-setup-lazy-evaluation/README.md": {
+    "query_that_joined": "Which operation can be classified as an action, resulting in a job being created by the Spark engine?  In other words, which operation will NOT be lazily evaluated?",
+    "new_dirname": "spark_q1975"
+  },
+  "4-setup-streaming-output-mode/README.md": {
+    "query_that_joined": "Which output mode should be used when restating an aggregated structured streaming query?",
+    "new_dirname": "spark_q1976"
+  },
+  "2-setup-spark-submit/README.md": {
+    "query_that_joined": "What command is used to launch a Spark application?",
+    "new_dirname": "spark_q1977"
+  },
+  "1-use-stage-boundary/README.md": {
+    "query_that_joined": "What operation often defines a stage boundary?",
+    "new_dirname": "spark_q1978"
+  },
+  "3-performance-broadcast-join/README.md": {
+    "query_that_joined": "Consider a pipeline that joins a very large fact table (>2b records) to a small dimensional table (<10k records).  For optimal performance, what type of join should be used?",
+    "new_dirname": "spark_q1979"
+  },
+  "4-setup-parquet/README.md": {
+    "query_that_joined": "Which storage format is MOST optimized for a dataset with billions of records and hundreds of columns?",
+    "new_dirname": "spark_q1980"
+  },
+  "1-use-spark-use-case/README.md": {
+    "query_that_joined": "For which use case is Spark BEST suited?",
+    "new_dirname": "spark_q1981"
+  },
+  "4-setup-explode/README.md": {
+    "query_that_joined": "Describe the behavior of the Spark SQL `explode()` function in the code snippet.",
+    "new_dirname": "spark_q1982"
+  },
+  "4-setup-persist-dataframe/README.md": {
+    "query_that_joined": "Consider an external hive table that is defined in the hive metastore and points to a specific hdfs-compatible location. Which command is appropriate for saving a dataframe named `df` to the hdfs-compatible location, without updating the hive metastore?",
+    "new_dirname": "spark_q1983"
+  },
+  "2-setup-streaming-sink/README.md": {
+    "query_that_joined": "Which property must a Spark structured streaming sink possess to ensure end-to-end exactly-once semantics?",
+    "new_dirname": "spark_q1984"
+  },
+  "1-use-narrow-dependency/README.md": {
+    "query_that_joined": "Which operation has a narrow dependency (in other words, no partition shuffles are necessary for the operation)?",
+    "new_dirname": "spark_q1985"
+  },
+  "4-setup-cluster-manager/README.md": {
+    "query_that_joined": "Which cluster manager is NOT supported by the Apache Spark project?",
+    "new_dirname": "spark_q1986"
+  },
+  "2-setup-file-formats/README.md": {
+    "query_that_joined": "Which of the following file formats can NOT be read natively by Spark?",
+    "new_dirname": "spark_q1987"
+  },
+  "4-setup-split/README.md": {
+    "query_that_joined": "Describe the behavior of the Spark SQL `split()` function in the code snippet.",
+    "new_dirname": "spark_q1988"
+  },
+  "3-performance-query-performance/README.md": {
+    "query_that_joined": "Which of the following will ensure better performance of queries when using Spark as a query engine?",
+    "new_dirname": "spark_q1989"
+  },
+  "1-use-spark-context/README.md": {
+    "query_that_joined": "Where is the SparkContext created?",
+    "new_dirname": "spark_q1990"
+  },
+  "3-performance-projection-vs-predicate/README.md": {
+    "query_that_joined": "Projection pushdown can also be thought as ______-based filtering and predicate pushdown can be thought of as ______-based filtering.",
+    "new_dirname": "spark_q1991"
+  },
+  "1-use-spark-vs-hadoop/README.md": {
+    "query_that_joined": "What is a feature of Spark that has allowed it much better performance relative to Hadoop?",
+    "new_dirname": "spark_q1992"
+  },
+  "1-use-concept-hierarchy/README.md": {
+    "query_that_joined": "Starting from largest to smallest, what is the correct hierarchy of the following Spark concepts?",
+    "new_dirname": "spark_q1993"
+  },
+  "1-use-persist-rdd/README.md": {
+    "query_that_joined": "When using the default storage level for `persist()`, what happens when an RDD does not fit in the cluster's memory?",
+    "new_dirname": "spark_q1994"
+  }
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Example</title>
+</head>
+
+<body>
+  <template id="cover-template">
+    <h1><slot name="title">No Title</slot></h1>
+  </template>
+
+  <album-cover>
+    <div slot="title">Thriller</div>
+  </album-cover>
+
+  <script>
+    class AlbumCover extends HTMLElement {
+      constructor() {
+        super()
+        this.attachShadow({mode: 'open'})
+
+        // Answer
+        // const template = document.getElementById('cover-template')
+        // const clone = template.content.cloneNode(true)
+        // this.shadowRoot.appendChild(clone)
+
+        // D1
+        // const template = document.getElementById('cover-template')
+        // this.shadowRoot.appendChild(template)
+
+        // D2
+        // this.tempate = document.getElementById('cover-template')
+      }
+
+      // D3
+      // render() {
+      //   return document.getElementById('cover-template').content
+      // }
+    }
+    customElements.define('album-cover', AlbumCover)
+  </script>
+</body>
+
+</html>

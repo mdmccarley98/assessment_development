@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+  <div id="outer">
+      <div id="inner">
+          <button id="btn">Click Me</button>
+      </div>
+  </div>
+
+  <script>
+    const innerDiv = document.getElementById('inner')
+    innerDiv.addEventListener('click', (event) => {
+        console.log(event.target)
+    })
+  </script>
+</body>
+</html>

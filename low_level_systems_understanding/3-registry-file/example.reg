@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CURRENT_USER\SOFTWARE\TripleByte]
+"Example"=dword:00000003
+"Example2"=dword:00000015
+

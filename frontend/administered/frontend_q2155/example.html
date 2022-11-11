@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+    <input id="file-selector" type="file" multiple />
+
+    <script>
+        function processFiles(event) {
+            this.files.forEach(file => {  // <-- TypeError: this.files.forEach is not a function
+                // ...
+            })
+        }
+
+        const selector = document.getElementById('file-selector')
+        selector.addEventListener("change", processFiles)
+    </script>
+</body>
+
+</html>
+
+// A: Files selected from a file input are represented as a FileList object, not an array.
+// D: In the event handler, `this` is not a reference to the file input element.
+// D: The "change" event fires before the files have actually been selected.
+// D: The file input element does not have a `files` property.

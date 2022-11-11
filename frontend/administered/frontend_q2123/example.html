@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <title>Example</title>
+</head>
+
+<body>
+  <button id="btn">Press Me</button>
+
+  <script>
+    function firstEvent(event) {
+      console.log('An event')
+    }
+
+    function anotherEvent(event) {
+      console.log('...and another')
+    }
+
+    let btn = document.getElementById('btn')
+    btn.addEventListener('click', firstEvent)
+    btn.addEventListener('click', anotherEvent)
+    btn.addEventListener('click', anotherEvent)
+  </script>
+</body>
+</html>
